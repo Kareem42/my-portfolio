@@ -3,6 +3,7 @@ import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import "./index.css"
 import { Navbar } from "./components/Navbar";
+import { MobileMenu } from "./components/MobileMenu";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -16,6 +17,7 @@ function App() {
        isLoaded ? "opacity-100" : "opactity-0"} bg-black text-gray`}
        >
        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
 
       </div>
       </>
