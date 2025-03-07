@@ -36,7 +36,7 @@ export const About = () => {
                 {frontendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-purple-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
                   >
                     {tech}
@@ -50,7 +50,7 @@ export const About = () => {
                 {backendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-purple-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
                   >
                     {tech}
@@ -64,7 +64,7 @@ export const About = () => {
                 {businessIntell.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-purple-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
                   >
                     {tech}
@@ -78,7 +78,7 @@ export const About = () => {
                 {dataScience.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-purple-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
                   >
                     {tech}

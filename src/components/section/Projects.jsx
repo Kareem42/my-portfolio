@@ -20,7 +20,7 @@ export const Projects = () => {
                 {["React", "Node.js", "AWS"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-purple-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
                   >
                     {tech}
@@ -31,7 +31,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-purple-400 hover:text-purple-300 transition-colors"
+                  className="text-indigo-400 hover:text-blue-300 transition-colors"
                 >
                   View Project ⇛{" "}
                 </a>
@@ -46,7 +46,7 @@ export const Projects = () => {
                 {["React", "Node.js", "AWS"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-purple-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
                   >
                     {tech}
@@ -57,7 +57,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-purple-400 hover:text-purple-300 transition-colors"
+                  className="text-indigo-400 hover:text-blue-300 transition-colors"
                 >
                   View Project ⇛{" "}
                 </a>
@@ -72,7 +72,7 @@ export const Projects = () => {
                 {["React", "Node.js", "AWS"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-purple-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
                   >
                     {tech}
@@ -83,7 +83,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-purple-400 hover:text-purple-300 transition-colors"
+                  className="text-indigo-400 hover:text-blue-300 transition-colors"
                 >
                   View Project ⇛{" "}
                 </a>
@@ -98,7 +98,7 @@ export const Projects = () => {
                 {["React", "Node.js", "AWS"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-purple-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
                   >
                     {tech}
@@ -109,7 +109,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-purple-400 hover:text-purple-300 transition-colors"
+                  className="text-indigo-400 hover:text-blue-300 transition-colors"
                 >
                   View Project ⇛{" "}
                 </a>
@@ -124,7 +124,7 @@ export const Projects = () => {
                 {["React", "Node.js", "AWS"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-purple-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
                   >
                     {tech}
@@ -135,7 +135,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-purple-400 hover:text-purple-300 transition-colors"
+                  className="text-indigo-400 hover:text-blue-300 transition-colors"
                 >
                   View Project ⇛{" "}
                 </a>
@@ -150,7 +150,7 @@ export const Projects = () => {
                 {["React", "Node.js", "AWS"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-purple-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
                   >
                     {tech}
@@ -161,7 +161,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-purple-400 hover:text-purple-300 transition-colors"
+                  className="text-indigo-400 hover:text-blue-300 transition-colors"
                 >
                   View Project ⇛{" "}
                 </a>
