@@ -24,9 +24,25 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate about creating accurate, user-friendly dashboards and
-              visulizations, as well as creating sustainable and well designed
-              web applications in my free time.
+              I am athlete who loves to playing, watching, and studying
+              basketball. I watches a ton of anime, which my all-time favorites
+              includes Bleach and Kenichi the Might Disciple, enjoy playing
+              various MMORPGs, FPS and MOBA games, such as, World of Warcraft,
+              Guild Wars 2, Battlefield 2042, League of Legends, and Dota 2. My
+              wife and our 9 year old Chihuahua, Chester who is head of
+              Security, are my biggest supporters and fans and I would not be
+              who I would be without them.
+            </p>
+
+            <p className="text-gray-300 mb-6">
+              I was introduced to programming in 2014, where I took a course in
+              Java Application Development at a local community college in
+              Louisiana. From there, I worked in a warehouse for a liquor
+              distributor for the first 3 years in Lafayette, Louisiana. Then transferred
+              to Dallas, Texas in 2020 before becoming a Business Intelligence Analyst
+              in 2022 for the same company. During the 2020 transfer, I taught
+              myself Frontend Web Development through various educational
+              resources like LinkedIn, Udemy, and Codecademy.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -84,60 +100,6 @@ export const About = () => {
                     {tech}
                   </span>
                 ))}
-              </div>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Education</h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> B.S. in Management Informations Systems</strong> -
-                  University of Louisiana at Lafayette 2003-2006
-                </li>
-                <li>
-                  Relevant Coursework: Data Management, Information Security,
-                  Data Visualization
-                </li>
-              </ul>
-
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> Associates in Information Technology</strong> - South
-                  Louisiana Community College 2015-2017
-                </li>
-                <li>
-                  Relevant Coursework: Networking, Java Development, Security
-                  Management
-                </li>
-              </ul>
-            </div>
-            <div className="p-6 rounded-xl border-white/10 border hover:translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Work Experience</h3>
-              <div className="space-y-4 text-gray-300">
-                <div className="text-">
-                  <h4 className="font-bold">
-                    Business Intelligence Manager at Southern Glazers Wine &
-                    Spirits - TX 2023-present
-                  </h4>
-                  <p>
-                    Developed Excel and Tableau Dashboards while maintaining
-                    data structures, data cleaning, and filtering for live
-                    tracking
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-bold">
-                    Business Intelligence Analyst at Southern Glazers Wine &
-                    Spirits - TX 2022-2023
-                  </h4>
-                  <p>
-                    Developed Excel and Tableau Dashboards while maintaining
-                    data structures, data cleaning, and querying for live
-                    tracking
-                  </p>
-                </div>
               </div>
             </div>
           </div>

@@ -14,8 +14,8 @@ export const Home = () => {
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
             I am a Business Intelligence Manager, who is also an inspiring self
-            taught Full Stack Developer and Data Scientist. I know, I know, it
-            sounds weird, like a mythical unicorn. But when you go through this
+            taught Full Stack Developer and Data Analyst. I know, I know, it
+            sounds weird, like a mythical unicorn. However, when you explore this
             portfolio, you will see how possible it is for that mythical unicorn
             to exist.
           </p>
