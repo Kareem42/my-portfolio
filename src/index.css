@@ -9,6 +9,26 @@ body {
   color: #d5cdd0;
 }
 
+/*.timeline {
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline-item{
+  width: 50%;
+}
+
+@media (max-width: 768px){
+  .timeline {
+    flex-direction: column;
+  }
+
+  .timeline-item{
+    width: 100%;
+  }
+}
+
+
 /* CSS for Toggling dark mode and light mode
 
 .loading-page {

@@ -10,6 +10,7 @@ import { History } from "./components/section/History";
 import { Projects} from "./components/section/Projects";
 import { Contact } from "./components/section/Contact";
 
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);

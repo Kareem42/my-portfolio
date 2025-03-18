@@ -1,15 +1,34 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = ["React", " Typescript", " TailwindCSS", " HTML5"];
-  const backendSkills = ["Node.js", " JavaScript", " PostgreSQL"];
+  const frontendSkills = [
+    "React",
+    "Typescript",
+    "TailwindCSS",
+    "HTML5",
+    "CSS3",
+  ];
+  const backendSkills = [
+    "Node.js",
+    "JavaScript",
+    "PostgreSQL",
+    "Git Version Control",
+    "RESTful APIs",
+  ];
   const businessIntell = [
     "Power Query",
-    " Power Pivot",
-    " Business Objects",
-    " Excel",
+    "Power Pivot",
+    "Business Objects",
+    "Excel",
   ];
-  const dataScience = ["MySQL", " Python", " Tableau"];
+  const dataScience = [
+    "MySQL",
+    "Python",
+    "Tableau",
+    "Data Warehousing",
+    "Data Cleaning and Prepation",
+    "Data Visulization",
+  ];
 
   return (
     <section
@@ -24,25 +43,27 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              I am athlete who loves to playing, watching, and studying
-              basketball. I watches a ton of anime, which my all-time favorites
-              includes Bleach and Kenichi the Might Disciple, enjoy playing
-              various MMORPGs, FPS and MOBA games, such as, World of Warcraft,
-              Guild Wars 2, Battlefield 2042, League of Legends, and Dota 2. My
-              wife and our 9 year old Chihuahua, Chester who is head of
-              Security, are my biggest supporters and fans and I would not be
-              who I would be without them.
+              I am a nerdy athlete who loves to playing, watching, and studying
+              basketball. I alson watch a ton of anime, which includes my
+              all-time favorites includes Bleach and Kenichi the Mighty
+              Disciple, playing various MMORPGs, FPS and MOBA games, such as
+              World of Warcraft, Guild Wars 2, Battlefield 2042, League of
+              Legends, and Dota 2. My wife and our 9 year old Chihuahua, Chester
+              who is head of Security, are my biggest supporters and fans and I
+              would not be where I am and who I am today without them.
             </p>
 
             <p className="text-gray-300 mb-6">
               I was introduced to programming in 2014, where I took a course in
               Java Application Development at a local community college in
               Louisiana. From there, I worked in a warehouse for a liquor
-              distributor for the first 3 years in Lafayette, Louisiana. Then transferred
-              to Dallas, Texas in 2020 before becoming a Business Intelligence Analyst
-              in 2022 for the same company. During the 2020 transfer, I taught
-              myself Frontend Web Development through various educational
-              resources like LinkedIn, Udemy, and Codecademy.
+              distributor for the first 3 years in Lafayette, Louisiana. Then
+              transferred to Dallas, Texas in 2020 before becoming a Business
+              Intelligence Analyst in 2022 for the same company. During the 2020
+              transfer, I taught myself Frontend Web Development through various
+              educational resources like LinkedIn, Udemy, and Codecademy. My
+              continous learning and attitude for learning more is what led me
+              into creating this portfolio and other projects.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -89,7 +110,7 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Data Science</h3>
+              <h3 className="text-xl font-bold mb-4">Data Analyst</h3>
               <div className="flex flex-wrap gap-2">
                 {dataScience.map((tech, key) => (
                   <span
