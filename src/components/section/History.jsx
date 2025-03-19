@@ -19,67 +19,79 @@ export const History = () => {
           </h2>
         </div>
         <div className="relative pt-10">
-          <VerticalTimeline className="font-bold relative pt-10">
+          <VerticalTimeline>
             <VerticalTimelineElement
-              className="vertical-timeline-element--work absolute top-0 left-1/2 transform -translate-x-1/2 h-full"
-              date="2023 - Present"
+              className="vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
+              contentStyle={{ background: "rgb(146, 162, 182)", color: "#fff" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(33, 150, 243)",
+              }}
+              date="2011 - present"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<FaBriefcase />}
             >
-              <h3 className="vertical-timeline-element-title font-bold">
-                Business Intelligence Manager
+              <h3 className="vertical-timeline-element-title text-black font-bold">
+                Creative Director
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Farmers Branch, TX
-              </h4>
-              <p>Developed and maintained web applications.</p>
+              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+              <p>
+                Creative Direction, User Experience, Visual Design, Project
+                Management, Team Leading
+              </p>
             </VerticalTimelineElement>
-
             <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2022 - 2023"
+              className="vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
+              date="2010 - 2011"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<FaBriefcase />}
             >
-              <h3 className="vertical-timeline-element-title font-bold">
-                Business Intelligence Analyst
-              </h3>
+              <h3 className="vertical-timeline-element-title">Art Director</h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Farmers Branch, TX
+                San Francisco, CA
               </h4>
-              <p>Developed and maintained web applications.</p>
+              <p>
+                Creative Direction, User Experience, Visual Design, SEO, Online
+                Marketing
+              </p>
             </VerticalTimelineElement>
-
             <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2020 - 2022"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              icon={<FaBriefcase />}
-            >
-              <h3 className="vertical-timeline-element-title font-bold">
-                Night Warehouse Supervisor
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Farmers Branch, TX
-              </h4>
-              <p>Developed and maintained web applications.</p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              className="vertical-timeline-element--education"
+              className="vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
               date="2008 - 2010"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<FaBriefcase />}
+            >
+              <h3 className="vertical-timeline-element-title">Web Designer</h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Los Angeles, CA
+              </h4>
+              <p>User Experience, Visual Design</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
+              date="2006 - 2008"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<FaBriefcase />}
+            >
+              <h3 className="vertical-timeline-element-title">Web Designer</h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                San Francisco, CA
+              </h4>
+              <p>User Experience, Visual Design</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
+              date="April 2013"
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
               icon={<FaSchool />}
             >
               <h3 className="vertical-timeline-element-title">
-                Master of Science
+                Content Marketing for Web, Mobile and Social Media
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                University of California, Berkeley
+                Online Course
               </h4>
-              <p>Specialized in Computer Science.</p>
+              <p>Strategy, Social Media</p>
             </VerticalTimelineElement>
-            {/* Add more timeline elements as needed */}
           </VerticalTimeline>
         </div>
       </RevealOnScroll>
