@@ -4,6 +4,10 @@ import emailjs from "emailjs-com";
 
 export const Contact = () => {
 
+  const SERVICE_ID = "service_7tcq5a7";
+  const TEMPLATE_ID = "template_c9xu0cs";
+  const PUBLIC_KEY = "rdh4Nrd1_wuHMp8lu";
+
 
   const [formData, setFormData] = useState({
     name: "",
@@ -16,10 +20,10 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
+        SERVICE_ID,
+        TEMPLATE_ID,
         e.target,
-        import.meta.env.VITE_PUBLIC_KEY
+        PUBLIC_KEY
       )
       .then(() => {
         alert("Message Sent!");
@@ -87,7 +91,7 @@ export const Contact = () => {
 
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+              className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-2.5 hover:shadow-[0_0_15px_rgba(75,0,130,0.4)]"
             >
               Send Message
             </button>

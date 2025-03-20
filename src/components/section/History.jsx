@@ -24,17 +24,17 @@ export const History = () => {
               className="vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
               contentStyle={{ background: "rgb(146, 162, 182)", color: "#fff" }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
+                borderRight: "5px solid  rgb(33, 150, 243)",
               }}
               date="2011 - present"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<FaBriefcase />}
             >
-              <h3 className="vertical-timeline-element-title text-black font-bold">
+              <h3 className="vertical-timeline-element-title text-black font-bold text-black">
                 Creative Director
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-              <p>
+              <h4 className="text-black vertical-timeline-element-subtitle">Miami, FL</h4>
+              <p className="text-black font-bold">
                 Creative Direction, User Experience, Visual Design, Project
                 Management, Team Leading
               </p>
@@ -46,7 +46,7 @@ export const History = () => {
               icon={<FaBriefcase />}
             >
               <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">
+              <h4 className="vertical-timeline-element-subtitle text-black">
                 San Francisco, CA
               </h4>
               <p>
