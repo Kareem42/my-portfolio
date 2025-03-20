@@ -54,15 +54,14 @@ export const About = () => {
             </p>
 
             <p className="text-gray-300 mb-6">
-              I was introduced to programming in 2014, where I took a course in
+              I was introduced to programming in 2015, where I took a course in
               Java Application Development at a local community college in
               Louisiana. From there, I worked in a warehouse for a liquor
               distributor for the first 3 years in Lafayette, Louisiana. Then
               transferred to Dallas, Texas in 2020 before becoming a Business
-              Intelligence Analyst in 2022 for the same company. During the 2020
-              transfer, I taught myself Frontend Web Development through various
-              educational resources like LinkedIn, Udemy, and Codecademy. My
-              continous learning and attitude for learning more is what led me
+              Intelligence Analyst in 2022 for the same company. During 2020, due to Covid restrictions,
+              I taught myself Frontend Web Development through various
+              educational resources like LinkedIn, Udemy, and Codecademy. My self-motivation, attitude, and approach for learning more is what led me
               into creating this portfolio and other projects.
             </p>
           </div>
