@@ -4,11 +4,6 @@ import emailjs from "emailjs-com";
 
 export const Contact = () => {
 
-  const SERVICE_ID = "service_7tcq5a7";
-  const TEMPLATE_ID = "template_c9xu0cs";
-  const PUBLIC_KEY = "rdh4Nrd1_wuHMp8lu";
-
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -19,11 +14,8 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        SERVICE_ID,
-        TEMPLATE_ID,
-        e.target,
-        PUBLIC_KEY
+      .sendForm(import.meta.env.VITE_SERVICE_ID,import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY
+     
       )
       .then(() => {
         alert("Message Sent!");

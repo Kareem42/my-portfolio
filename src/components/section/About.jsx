@@ -42,7 +42,7 @@ export const About = () => {
           </h2>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 mb-6 font-mono">
               I am a nerdy athlete who loves to playing, watching, and studying
               basketball. I alson watch a ton of anime, which includes my
               all-time favorites includes Bleach and Kenichi the Mighty
@@ -53,7 +53,7 @@ export const About = () => {
               would not be where I am and who I am today without them.
             </p>
 
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 mb-6 font-mono">
               I was introduced to programming in 2015, where I took a course in
               Java Application Development at a local community college in
               Louisiana. From there, I worked in a warehouse for a liquor
@@ -72,7 +72,7 @@ export const About = () => {
                 {frontendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
                   >
                     {tech}
@@ -86,7 +86,7 @@ export const About = () => {
                 {backendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
                   >
                     {tech}
@@ -100,7 +100,7 @@ export const About = () => {
                 {businessIntell.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
                   >
                     {tech}
@@ -114,7 +114,7 @@ export const About = () => {
                 {dataScience.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
                   >
                     {tech}

@@ -20,23 +20,23 @@ export const History = () => {
 
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
+            className="font-mono vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid rgb(97,71,185)' }}
             date="2023-present"
-            iconStyle={{ background: 'rgb(97, 71, 185)' }}
+            iconStyle={{ background: 'rgb(98, 71, 186)' }}
             icon={FaBriefcase}
             position="left"
           >
-            <h3 className="vertical-timeline-element-title font-bold">Business Intelligence Manager</h3>
-            <h4 className="vertical-timeline-element-subtitle">Farmers Branch, TX</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis architecto sequi ullam eos consectetur qui ratione distinctio inventore aliquid, at vitae vel quam illum culpa suscipit. Asperiores possimus minima repudiandae?</p>
+            <h3 className="vertical-timeline-element-title font-bold font-mono">Business Intelligence Manager</h3>
+            <h4 className="vertical-timeline-element-subtitle font-mono">Farmers Branch, TX</h4>
+            <p className="font-mono">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis architecto sequi ullam eos consectetur qui ratione distinctio inventore aliquid, at vitae vel quam illum culpa suscipit. Asperiores possimus minima repudiandae?</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
 
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
+            className="font-mono vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid rgb(97,71,185)' }}
             date="2022-2023"
@@ -44,15 +44,15 @@ export const History = () => {
             icon={FaBriefcase}
             position="right"
           >
-            <h3 className="vertical-timeline-element-title font-bold">Business Intelligence Analyst</h3>
-            <h4 className="vertical-timeline-element-subtitle">Farmers Branch, TX</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis architecto sequi ullam eos consectetur qui ratione distinctio inventore aliquid, at vitae vel quam illum culpa suscipit. Asperiores possimus minima repudiandae?</p>
+            <h3 className="vertical-timeline-element-title font-bold font-mono">Business Intelligence Analyst</h3>
+            <h4 className="vertical-timeline-element-subtitle font-mono">Farmers Branch, TX</h4>
+            <p className="font-mono">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis architecto sequi ullam eos consectetur qui ratione distinctio inventore aliquid, at vitae vel quam illum culpa suscipit. Asperiores possimus minima repudiandae?</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
 
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
+            className="font-mono vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid rgb(97,71,185)' }}
             date="2020-2022"
@@ -60,15 +60,15 @@ export const History = () => {
             icon={FaBriefcase}
             position="left"
           >
-            <h3 className="vertical-timeline-element-title font-bold">Night Warehouse Supervisor</h3>
-            <h4 className="vertical-timeline-element-subtitle">Farmers Branch, TX</h4>
+            <h3 className="vertical-timeline-element-title font-bold font-mono">Night Warehouse Supervisor</h3>
+            <h4 className="vertical-timeline-element-subtitle font-mono">Farmers Branch, TX</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis architecto sequi ullam eos consectetur qui ratione distinctio inventore aliquid, at vitae vel quam illum culpa suscipit. Asperiores possimus minima repudiandae?</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
 
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
+            className="font-mono vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid rgb(97,71,185)' }}
             date="2017-2020"
@@ -76,15 +76,15 @@ export const History = () => {
             icon={FaBriefcase}
             position="right"
           >
-            <h3 className="vertical-timeline-element-title font-bold">Day Warehouse Supervisor</h3>
-            <h4 className="vertical-timeline-element-subtitle">Lafayette, LA</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis architecto sequi ullam eos consectetur qui ratione distinctio inventore aliquid, at vitae vel quam illum culpa suscipit. Asperiores possimus minima repudiandae?</p>
+            <h3 className="vertical-timeline-element-title font-bold font-mono">Day Warehouse Supervisor</h3>
+            <h4 className="vertical-timeline-element-subtitle font-mono">Lafayette, LA</h4>
+            <p className="font-mono">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis architecto sequi ullam eos consectetur qui ratione distinctio inventore aliquid, at vitae vel quam illum culpa suscipit. Asperiores possimus minima repudiandae?</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
 
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--educcation w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
+            className="font-mono vertical-timeline-element--educcation w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid rgb(97,71,185)' }}
             date="2015-2016"
@@ -92,10 +92,10 @@ export const History = () => {
             icon={FaSchool}
             position="left"
           >
-            <h3 className="vertical-timeline-element-title font-bold">South Louisiana Community College</h3>
-            <h4 className="vertical-timeline-element-subtitle">Lafayette, LA</h4>
-            <h4 className="vertical-timeline-element-subtitle"><strong>ASS in Informaton Technology</strong></h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis architecto sequi ullam eos consectetur qui ratione distinctio inventore aliquid, at vitae vel quam illum culpa suscipit. Asperiores possimus minima repudiandae?</p>
+            <h3 className="vertical-timeline-element-title font-bold font-mono">South Louisiana Community College</h3>
+            <h4 className="vertical-timeline-element-subtitle font-mono">Lafayette, LA</h4>
+            <h4 className="vertical-timeline-element-subtitle font-mono"><strong>ASS in Informaton Technology</strong></h4>
+            <p className="font-mono">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis architecto sequi ullam eos consectetur qui ratione distinctio inventore aliquid, at vitae vel quam illum culpa suscipit. Asperiores possimus minima repudiandae?</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
 
