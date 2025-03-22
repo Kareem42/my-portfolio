@@ -17,7 +17,7 @@ export const Projects = () => {
               <p className="font-mono">A full-stack web application that detects a face using Machine Learning API. •UI built in React Js, RESTful Node/Express server and PostgreSQL database.</p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {["React", "Node.js", "Javascript", "HTML5", "CSS3"].map((tech, key) => (
+                {["React", "Node.js", "Javascript", "HTML5", "CSS3","Express.js","PostgreSQL"].map((tech, key) => (
                   <span
                     key={key}
                     className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
