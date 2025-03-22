@@ -57,7 +57,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://github.com/Kareem42/smartbrain-api"
-                  className="text-indigo-400 font-mono hover:text-blue-300 transition-colors"
+                  className="text-indigo-400 font-mono hover:underline transition-colors"
                 >
                   View Project ⇛{" "}
                 </a>
@@ -83,7 +83,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-indigo-400 font-mono hover:text-blue-300 transition-colors"
+                  className="text-indigo-400 font-mono hover:underline transition-colors"
                 >
                   View Project ⇛{" "}
                 </a>
