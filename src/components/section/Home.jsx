@@ -4,8 +4,8 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative">
-      
+      className="min-h-screen flex items-center justify-center relative"
+    >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-6xl font-mono font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent leading-right">
@@ -13,11 +13,11 @@ export const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto font-mono">
-            I am a Business Intelligence Manager, who is also an inspiring self
-            taught Fronted Web Developer and Data Analyst. I know, I know, it
-            sounds weird, like a mythical unicorn. However, when you explore this
-            portfolio, you will see how possible it is for that mythical unicorn
-            to exist.
+            I’m a Business Intelligence Manager with a passion for innovation,
+            blending my skills as a self-taught Frontend Web Developer and Data
+            Analyst. I know it might sound like the stuff of myths—a unicorn of
+            sorts—but as you explore this portfolio, you'll discover just how
+            real and possible this "mythical unicorn" truly is.
           </p>
           <div className="flex justify-center space-x-4">
             <a

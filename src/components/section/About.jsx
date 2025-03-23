@@ -43,31 +43,44 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6 font-mono">
-              I am a nerdy athlete who loves to playing, watching, and studying
-              basketball. I alson watch a ton of anime, which includes my
-              all-time favorites includes Bleach and Kenichi the Mighty
-              Disciple, playing various MMORPGs, FPS and MOBA games, such as
-              World of Warcraft, Guild Wars 2, Battlefield 2042, League of
-              Legends, and Dota 2. My wife and our 9 year old Chihuahua, Chester
-              who is head of Security, are my biggest supporters and fans and I
-              would not be where I am and who I am today without them.
+              I'm a self-proclaimed nerdy athlete with a deep passion for
+              basketball—playing it, watching it, and analyzing the game from
+              every angle. When I'm not on the court, you'll likely find me
+              immersed in anime, with classics like Bleach and Kenichi: The
+              Mightiest Disciple holding a special place in my heart. I'm also
+              an avid gamer who dives into the worlds of MMORPGs, FPS, and MOBA
+              games, such as World of Warcraft, Guild Wars 2, Battlefield 2042,
+              League of Legends, and Dota 2.
             </p>
 
             <p className="text-gray-300 mb-6 font-mono">
-              I was introduced to programming in 2015, where I took a course in
-              Java Application Development at a local community college in
-              Louisiana. From there, I worked in a warehouse for a liquor
-              distributor for the first 3 years in Lafayette, Louisiana. Then
-              transferred to Dallas, Texas in 2020 before becoming a Business
-              Intelligence Analyst in 2022 for the same company. During 2020, due to Covid restrictions,
-              I taught myself Frontend Web Development through various
-              educational resources like LinkedIn, Udemy, and Codecademy. My self-motivation, attitude, and approach for learning more is what led me
-              into creating this portfolio and other projects.
+              My greatest supporters are my wife and our spirited 9-year-old
+              Chihuahua, Chester, who proudly serves as "Head of Security." I
+              owe much of who I am today to their unwavering encouragement.
+            </p>
+
+            <p className="text-gray-300 mb-6 font-mono">
+              My journey into programming began in 2015 when I took a Java
+              Application Development course at a community college in
+              Louisiana. I spent three years working in a warehouse for a liquor
+              distributor in Lafayette before transferring to Dallas in 2020.
+              During that transformative year, amid COVID restrictions, I seized
+              the opportunity to teach myself Frontend Web Development using
+              resources like LinkedIn Learning, Udemy, and Codecademy.
+            </p>
+
+            <p className="text-gray-300 mb-6 font-mono">
+              This dedication to self-improvement and constant learning fueled
+              my transition to a Business Intelligence Analyst role in 2022.
+              It’s also what inspired me to create this portfolio and other
+              exciting projects. My passion for technology and my can-do
+              attitude continue to drive me as I explore new opportunities and
+              challenges.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Frontend</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">Frontend</h3>
               <div className="flex flex-wrap gap-2">
                 {frontendSkills.map((tech, key) => (
                   <span
@@ -81,7 +94,7 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Backend</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {backendSkills.map((tech, key) => (
                   <span
@@ -95,7 +108,7 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Business Intelligence</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">Business Intelligence</h3>
               <div className="flex flex-wrap gap-2">
                 {businessIntell.map((tech, key) => (
                   <span
@@ -109,7 +122,7 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Data Analyst</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">Data Analyst</h3>
               <div className="flex flex-wrap gap-2">
                 {dataScience.map((tech, key) => (
                   <span
