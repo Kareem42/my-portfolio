@@ -9,6 +9,7 @@ import { About } from "./components/section/About";
 import { History } from "./components/section/History";
 import { Projects} from "./components/section/Projects";
 import { Contact } from "./components/section/Contact";
+import { Footer } from "./components/section/Footer";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
        <History />
        <Projects />
        <Contact />
+       <Footer />
       </div>
       </>
   );
