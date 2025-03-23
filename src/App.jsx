@@ -29,8 +29,6 @@ function App() {
        <History />
        <Projects />
        <Contact />
-
-
       </div>
       </>
   );

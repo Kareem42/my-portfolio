@@ -26,7 +26,7 @@ export const History = () => {
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2023-present"
             iconStyle={{ background: "rgb(98, 71, 186)" }}
-            icon={FaBriefcase}
+            icon={<FaBriefcase/>}
             position="left"
           >
             <h3 className="vertical-timeline-element-title font-bold font-mono">
@@ -52,7 +52,7 @@ export const History = () => {
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2022-2023"
             iconStyle={{ background: "rgb(97,71,185)" }}
-            icon={FaBriefcase}
+            icon={<FaBriefcase/>}
             position="right"
           >
             <h3 className="vertical-timeline-element-title font-bold font-mono">
@@ -78,7 +78,7 @@ export const History = () => {
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2020-2022"
             iconStyle={{ background: "rgb(97,71,185)" }}
-            icon={FaBriefcase}
+            icon={<FaBriefcase/>}
             position="left"
           >
             <h3 className="vertical-timeline-element-title font-bold font-mono">
@@ -105,7 +105,7 @@ export const History = () => {
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2017-2020"
             iconStyle={{ background: "rgb(97,71,185)" }}
-            icon={FaBriefcase}
+            icon={<FaBriefcase/>}
             position="right"
           >
             <h3 className="vertical-timeline-element-title font-bold font-mono">
@@ -115,12 +115,13 @@ export const History = () => {
               Lafayette, LA
             </h4>
             <p className="font-mono">
-              Manage daily warehouse operations, ensuring the efficient receipt,
-              storage, and distribution of liquor products. Lead and coordinate
-              a team of warehouse staff, oversee inventory management, enforce
-              safety protocols, and maintain compliance with company standards.
-              Focus on optimizing workflows and driving productivity to support
-              timely deliveries and customer satisfaction.
+              Manage daily warehouse operations, ensuring the efficient receipt
+              of inbound deliveries, storage, and distribution of liquor
+              products. Lead and coordinate a team of warehouse staff, oversee
+              inventory management, enforce safety protocols, and maintain
+              compliance with company standards. Focus on optimizing workflows
+              and driving productivity to support timely deliveries and customer
+              satisfaction.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
@@ -132,7 +133,7 @@ export const History = () => {
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2015-2016"
             iconStyle={{ background: "rgb(97,71,185)" }}
-            icon={FaSchool}
+            icon={<FaSchool/>}
             position="left"
           >
             <h3 className="vertical-timeline-element-title font-bold font-mono">
@@ -145,10 +146,7 @@ export const History = () => {
               <strong>ASS in Informaton Technology</strong>
             </h4>
             <p className="font-mono">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Veritatis architecto sequi ullam eos consectetur qui ratione
-              distinctio inventore aliquid, at vitae vel quam illum culpa
-              suscipit. Asperiores possimus minima repudiandae?
+              
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
@@ -158,4 +156,3 @@ export const History = () => {
 };
 
 export default History;
-

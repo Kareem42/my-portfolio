@@ -15,8 +15,8 @@ export const Home = () => {
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto font-mono">
             I’m a Business Intelligence Manager with a passion for innovation,
             blending my skills as a self-taught Frontend Web Developer and Data
-            Analyst. I know it might sound like the stuff of myths—a unicorn of
-            sorts—but as you explore this portfolio, you'll discover just how
+            Analyst. I know it might sound like the stuff of myths — unicorn of
+            sorts — but as you explore this portfolio, you'll discover just how
             real and possible this "mythical unicorn" truly is.
           </p>
           <div className="flex justify-center space-x-4">
