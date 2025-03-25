@@ -14,6 +14,7 @@ export const About = () => {
     "Node.js",
     "JavaScript",
     "PostgreSQL",
+    "GIT",
     "Git Version Control",
     "RESTful APIs",
     "Email.js",
