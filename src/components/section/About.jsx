@@ -3,8 +3,10 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
+    "Vite.js",
     "Typescript",
     "TailwindCSS",
+    "Javascript",
     "HTML5",
     "CSS3",
   ];
@@ -22,6 +24,7 @@ export const About = () => {
     "Power Pivot",
     "Business Objects",
     "Excel",
+    "Power Automate",
     "PowerPoint",
     "DAX",
     "PowerBI"
