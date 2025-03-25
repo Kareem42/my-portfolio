@@ -19,7 +19,7 @@ export const Projects = () => {
               </h3>
               <p className="font-mono">
                 A full-stack web application that detects a face using Machine
-                Learning API. •UI built in React Js, RESTful Node/Express server
+                Learning API. UI built in React Js, RESTful Node/Express server
                 and PostgreSQL database.
               </p>
 
