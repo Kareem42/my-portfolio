@@ -15,18 +15,22 @@ export const About = () => {
     "Git Version Control",
     "RESTful APIs",
     "Email.js",
+    "Express.js"
   ];
   const businessIntell = [
     "Power Query",
     "Power Pivot",
     "Business Objects",
     "Excel",
-    "PowerPoint"
+    "PowerPoint",
+    "DAX",
+    "PowerBI"
   ];
   const dataScience = [
     "MySQL",
     "Python",
     "Tableau",
+    "Machine Learning",
     "Data Warehousing",
     "Data Cleaning and Prepation",
     "Data Visulization",

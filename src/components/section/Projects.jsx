@@ -13,11 +13,26 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2 font-mono"> Face Recognition Smart Brain Application</h3>
-              <p className="font-mono">A full-stack web application that detects a face using Machine Learning API. •UI built in React Js, RESTful Node/Express server and PostgreSQL database.</p>
+              <h3 className="text-xl font-bold mb-2 font-mono">
+                {" "}
+                Face Recognition Smart Brain Application
+              </h3>
+              <p className="font-mono">
+                A full-stack web application that detects a face using Machine
+                Learning API. •UI built in React Js, RESTful Node/Express server
+                and PostgreSQL database.
+              </p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {["React", "Node.js", "Javascript", "HTML5", "CSS3","Express.js","PostgreSQL"].map((tech, key) => (
+                {[
+                  "React",
+                  "Node.js",
+                  "Javascript",
+                  "HTML5",
+                  "CSS3",
+                  "Express.js",
+                  "PostgreSQL",
+                ].map((tech, key) => (
                   <span
                     key={key}
                     className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -39,8 +54,15 @@ export const Projects = () => {
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2 font-mono"> SmartBrain API</h3>
-              <p className="font-mono">This is the Backend Server that was created to store all of the registered users in the Face Recognition Smart Brain application with Clarifai WebAPI.</p>
+              <h3 className="text-xl font-bold mb-2 font-mono">
+                {" "}
+                SmartBrain API
+              </h3>
+              <p className="font-mono">
+                This is the Backend Server that was created to store all of the
+                registered users in the Face Recognition Smart Brain application
+                with Clarifai WebAPI.
+              </p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
                 {["Node.js", "JavaScript"].map((tech, key) => (
@@ -65,11 +87,17 @@ export const Projects = () => {
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2 font-mono"> Project 3</h3>
-              <p className="font-mono">Put description of the project here</p>
+              <h3 className="text-xl font-bold mb-2 font-mono">
+                {" "}
+                Pokemon Starter
+              </h3>
+              <p className="font-mono">
+                A machine learning training model that will assist new trainers to
+                select a starter Pokemon based on Type and Total Stats.
+              </p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {["React", "Node.js", "AWS"].map((tech, key) => (
+                {["Python", "Machine Learning", "Excel"].map((tech, key) => (
                   <span
                     key={key}
                     className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -82,7 +110,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Kareem42/python-projects/blob/main/StartingPokemonDecisionTree.ipynb"
                   className="text-indigo-400 font-mono hover:underline transition-colors"
                 >
                   View Project ⇛{" "}
