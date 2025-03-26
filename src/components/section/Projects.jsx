@@ -97,7 +97,7 @@ export const Projects = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {["Python", "Machine Learning", "Excel"].map((tech, key) => (
+                {["Python", "Machine Learning", "Jupyter Notebook"].map((tech, key) => (
                   <span
                     key={key}
                     className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
