@@ -92,20 +92,22 @@ export const Projects = () => {
                 Pokemon Starter
               </h3>
               <p className="font-mono">
-                A machine learning training model that will assist new trainers to
-                select a starter Pokemon based on Type and Total Stats.
+                A machine learning training model that will assist new trainers
+                to select a starter Pokemon based on Type and Total Stats.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {["Python", "Machine Learning", "Jupyter Notebook"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                {["Python", "Machine Learning", "Jupyter Notebook"].map(
+                  (tech, key) => (
+                    <span
+                      key={key}
+                      className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
               </div>
 
               <div className="flex justify-between items-center">
@@ -119,11 +121,19 @@ export const Projects = () => {
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2 font-mono"> Project 4</h3>
-              <p className="font-mono">Put description of the project here</p>
+              <h3 className="text-xl font-bold mb-2 font-mono">
+                {" "}
+                Restaurant Orders Analysis
+              </h3>
+              <p className="font-mono">
+                A SQL-based project analyzing a fictitious restaurant serving
+                international cuisine. The objective is to identify top-selling
+                items and recommend potential menu optimizations by removing
+                underperforming dishes.
+              </p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {["React", "Node.js", "AWS"].map((tech, key) => (
+                {["MySQL"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 font-mono text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -136,7 +146,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Kareem42/Restaurant-Orders-Analysis"
                   className="text-indigo-400 font-mono hover:underline transition-colors"
                 >
                   View Project ⇛{" "}
