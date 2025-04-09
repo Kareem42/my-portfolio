@@ -143,6 +143,15 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/Kareem42/Restaurant-Orders-Analysis"
+                  className="text-indigo-400 font-mono hover:underline transition-colors"
+                >
+                  View Project ⇛{" "}
+                </a>
+              </div>
+            </div>
             </div>
           </div>
         </div>
