@@ -20,7 +20,7 @@ export const Projects = () => {
               <p className="font-mono">
                 A full-stack web application that detects a face using Machine
                 Learning API. UI built in React Js, RESTful Node/Express server
-                and PostgreSQL database
+                and PostgreSQL database.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
