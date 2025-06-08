@@ -1,36 +1,11 @@
-import { useState, useEffect } from "react";
+
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Home = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  // Toggle dark mode
-  const toggleDarkMode = () => {
-    setIsDarkMode((prevMode) => !prevMode);
-  };
-
-  // Apply dark mode class to the <html> element
-  useEffect(() => {
-    const htmlElement = document.documentElement;
-    if (isDarkMode) {
-      htmlElement.classList.add("dark");
-    } else {
-      htmlElement.classList.remove("dark");
-    }
-  }, [isDarkMode]);
-
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative bg-white dark:bg-gray-900"
-    >
-      <button
-        onClick={toggleDarkMode}
-        className="absolute top-4 right-4 bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 py-2 px-4 rounded font-mono"
-      >
-        {isDarkMode ? "Light Mode" : "Dark Mode"}
-      </button>
-
+      className="min-h-screen flex items-center justify-center">
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-6xl font-mono font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent leading-right">
