@@ -54,11 +54,11 @@ export const About = () => {
           
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6 font-mono">
-              I'm a self-proclaimed nerdy athlete with a deep passion for
+              I&apos;m a self-proclaimed nerdy athlete with a deep passion for
               basketball—playing it, watching it, and analyzing the game from
-              every angle. When I'm not on the court, you'll likely find me
+              every angle. When I&apos;m not on the court, you&apos;ll likely find me
               immersed in anime, with classics like Bleach and Kenichi: The
-              Mightiest Disciple holding a special place in my heart. I'm also
+              Mightiest Disciple holding a special place in my heart. I&apos;m also
               an avid gamer who dives into the worlds of MMORPGs, FPS, and MOBA
               games, such as World of Warcraft, Guild Wars 2, Battlefield 2042,
               League of Legends, and Dota 2.
@@ -66,7 +66,7 @@ export const About = () => {
 
             <p className="text-gray-300 mb-6 font-mono">
               My greatest supporters are my wife and our spirited 9-year-old
-              Chihuahua, Chester, who proudly serves as "Head of Security." I
+              Chihuahua, Chester, who proudly serves as &apos;Head of Security.&apos; I
               owe much of who I am today to their unwavering encouragement.
             </p>
 
