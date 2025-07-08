@@ -9,6 +9,7 @@ export const About = () => {
     "Javascript",
     "HTML5",
     "CSS3",
+    "Redux",
   ];
   const backendSkills = [
     "Node.js",
@@ -91,7 +92,7 @@ export const About = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">Frontend</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">Frontend Skills</h3>
               <div className="flex flex-wrap gap-2">
                 {frontendSkills.map((tech, key) => (
                   <span
@@ -105,7 +106,7 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">Backend</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">Backend Skills</h3>
               <div className="flex flex-wrap gap-2">
                 {backendSkills.map((tech, key) => (
                   <span
@@ -119,7 +120,7 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">Business Intelligence</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">Business Intelligence Skills</h3>
               <div className="flex flex-wrap gap-2">
                 {businessIntell.map((tech, key) => (
                   <span
@@ -133,7 +134,7 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">Data Analyst</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">Data Analyst Skills</h3>
               <div className="flex flex-wrap gap-2">
                 {dataScience.map((tech, key) => (
                   <span
