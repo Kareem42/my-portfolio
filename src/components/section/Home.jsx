@@ -16,8 +16,8 @@ export const Home = () => {
             I’m a Business Intelligence Manager with a passion for innovation,
             blending my skills as a self-taught Frontend Web Developer and Data
             Analyst. I know it might sound like the stuff of myths — unicorn of
-            sorts — but as you explore this portfolio, you'll discover just how
-            real and possible this "mythical unicorn" truly is.
+            sorts — but as you explore this portfolio, you&apos;ll discover just how
+            real and possible this &quot;mythical unicorn&quot; truly is.
           </p>
           <div className="flex justify-center space-x-4">
             <a
