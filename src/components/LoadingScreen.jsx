@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 
-
 export const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
   const fullText = "< Welcome, you are just in time! />";
@@ -33,6 +32,5 @@ export const LoadingScreen = ({ onComplete }) => {
         <div className="w-[40%] h-full bg-indigo-500 shadow-[0_0_15px_#3b82f6] animate-loading-bar"></div>
       </div>
     </div>
-   
   );
 };
