@@ -4,11 +4,12 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
+
   return (
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="home" className="font-mono text-xl font-bold text-white">
+          <a href="#home" className="font-mono text-xl font-bold text-white">
             {"  "}
             Just.<span className="Font-mono text-indigo-400">inTime</span>{" "}
           </a>
@@ -25,7 +26,6 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               href="#home"
               className="block py-2 px-3 font-mono text-white bg-indigo-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-indigo-400"
             >
-
               {" "}
               Home{" "}
             </a>

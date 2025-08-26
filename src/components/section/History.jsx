@@ -26,7 +26,7 @@ export const History = () => {
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2023-present"
             iconStyle={{ background: "rgb(98, 71, 186)" }}
-            icon={<FaBriefcase/>}
+            icon={<FaBriefcase />}
             position="left"
           >
             <h3 className="vertical-timeline-element-title font-bold font-mono">
@@ -52,7 +52,7 @@ export const History = () => {
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2022-2023"
             iconStyle={{ background: "rgb(97,71,185)" }}
-            icon={<FaBriefcase/>}
+            icon={<FaBriefcase />}
             position="right"
           >
             <h3 className="vertical-timeline-element-title font-bold font-mono">
@@ -78,7 +78,7 @@ export const History = () => {
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2020-2022"
             iconStyle={{ background: "rgb(97,71,185)" }}
-            icon={<FaBriefcase/>}
+            icon={<FaBriefcase />}
             position="left"
           >
             <h3 className="vertical-timeline-element-title font-bold font-mono">
@@ -105,7 +105,7 @@ export const History = () => {
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2017-2020"
             iconStyle={{ background: "rgb(97,71,185)" }}
-            icon={<FaBriefcase/>}
+            icon={<FaBriefcase />}
             position="right"
           >
             <h3 className="vertical-timeline-element-title font-bold font-mono">
@@ -133,7 +133,7 @@ export const History = () => {
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2015-2016"
             iconStyle={{ background: "rgb(97,71,185)" }}
-            icon={<FaSchool/>}
+            icon={<FaSchool />}
             position="left"
           >
             <h3 className="vertical-timeline-element-title font-bold font-mono">
@@ -143,11 +143,9 @@ export const History = () => {
               Lafayette, LA
             </h4>
             <h4 className="vertical-timeline-element-subtitle font-mono">
-              <strong>ASS in Informaton Technology</strong>
+              <strong>ASS in Information Technology</strong>
             </h4>
-            <p className="font-mono">
-              
-            </p>
+            <p className="font-mono"></p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </RevealOnScroll>
