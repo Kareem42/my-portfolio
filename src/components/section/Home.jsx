@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import SplitComponent from "../SplitComponent";
 
 export const Home = () => {
   return (
@@ -8,16 +9,22 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-6xl font-mono font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent leading-right">
-            Hi, I am Justin Alcendor
-          </h1>
+          <SplitComponent selector="#heading">
+            <h1
+              id="#heading"
+              className="text-5xl md:text-6xl font-mono font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text leading-right text-transparent"
+            >
+              Hi, I am Justin Alcendor
+            </h1>
+          </SplitComponent>
 
           <p className="text-gray-400 dark:text-gray-300 text-lg mb-8 max-w-lg mx-auto font-mono">
             I’m a Business Intelligence Manager with a passion for innovation,
             blending my skills as a self-taught Frontend Web Developer and Data
-            Analyst. I know it might sound like the stuff of myths — unicorn of
-            sorts — but as you explore this portfolio, you&apos;ll discover just
-            how real and possible this &quot;mythical unicorn&quot; truly is.
+            Analytics. I know it might sound like the stuff of myths — unicorn
+            of sorts — but as you› explore this portfolio, you&apos;ll discover
+            just how real and possible this &quot;mythical unicorn&quot; truly
+            is.
           </p>
           <div className="flex justify-center space-x-4">
             <a
@@ -35,8 +42,7 @@ export const Home = () => {
               Contact Me
             </a>
           </div>
-        </div>{" "}
-        {/* Closing div for RevealOnScroll */}
+        </div>
       </RevealOnScroll>
     </section>
   );
