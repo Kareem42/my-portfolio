@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import SplitComponent from "../SplitComponent";
+// import SplitComponent from "../SplitComponent";
 
 export const Home = () => {
   return (
@@ -9,14 +9,14 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <SplitComponent selector="#heading">
-            <h1
-              id="#heading"
-              className="text-5xl md:text-6xl font-mono font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text leading-right text-transparent"
-            >
-              Hi, I am Justin Alcendor
-            </h1>
-          </SplitComponent>
+          {/* <SplitComponent selector="#heading"> */}
+          <h1
+            id="heading"
+            className="text-5xl md:text-6xl font-mono font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text leading-right text-transparent"
+          >
+            Hi, I am Justin Alcendor
+          </h1>
+          {/* </SplitComponent> */}
 
           <p className="text-gray-400 dark:text-gray-300 text-lg mb-8 max-w-lg mx-auto font-mono">
             I’m a Business Intelligence Manager with a passion for innovation,
