@@ -1,27 +1,24 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import Resume from '../../assets/Resume.pdf';
-
+import Resume from "../../assets/Resume.pdf";
 
 export const About = () => {
   const frontendSkills = [
-    "React",
+    "React.js",
     "Vite.js",
     "Typescript",
     "TailwindCSS",
     "Javascript",
     "HTML5",
     "CSS3",
-    "Redux",
   ];
   const backendSkills = [
     "Node.js",
-    "JavaScript",
+    "Java",
     "PostgreSQL",
-    "GIT",
-    "Git Version Control",
+    "Spring",
+    "Spring Boot",
+    "Version Control",
     "RESTful APIs",
-    "Email.js",
-    "Express.js"
   ];
   const businessIntell = [
     "Power Query",
@@ -31,7 +28,7 @@ export const About = () => {
     "Power Automate",
     "PowerPoint",
     "DAX",
-    "PowerBI"
+    "PowerBI",
   ];
   const dataScience = [
     "MySQL",
@@ -58,18 +55,19 @@ export const About = () => {
             <p className="text-gray-300 mb-6 font-mono">
               I&apos;m a self-proclaimed nerdy athlete with a deep passion for
               basketball—playing it, watching it, and analyzing the game from
-              every angle. When I&apos;m not on the court, you&apos;ll likely find me
-              immersed in anime, with classics like Bleach and Kenichi: The
-              Mightiest Disciple holding a special place in my heart. I&apos;m also
-              an avid gamer who dives into the worlds of MMORPGs, FPS, and MOBA
-              games, such as World of Warcraft, Guild Wars 2, Battlefield 2042,
-              League of Legends, and Dota 2.
+              every angle. When I&apos;m not on the court, you&apos;ll likely
+              find me immersed in anime, with classics like Bleach and Kenichi:
+              The Mightiest Disciple holding a special place in my heart.
+              I&apos;m also an avid gamer who dives into the worlds of MMORPGs,
+              FPS, and MOBA games, such as World of Warcraft, Guild Wars 2,
+              Battlefield 6, League of Legends, and Dota 2.
             </p>
 
             <p className="text-gray-300 mb-6 font-mono">
               My greatest supporters are my wife and our spirited 9-year-old
-              Chihuahua, Chester, who proudly serves as &apos;Head of Security.&apos; I
-              owe much of who I am today to their unwavering encouragement.
+              Chihuahua, Chester, who proudly serves as &apos;Head of
+              Security.&apos; I owe much of who I am today to their unwavering
+              encouragement.
             </p>
 
             <p className="text-gray-300 mb-6 font-mono">
@@ -78,8 +76,8 @@ export const About = () => {
               Louisiana. I spent three years working in a warehouse for a liquor
               distributor in Lafayette before transferring to Dallas in 2020.
               During that transformative year, amid COVID restrictions, I seized
-              the opportunity to teach myself Frontend Web Development using
-              resources like LinkedIn Learning, Udemy, and Codecademy.
+              the opportunity to teach myself Frontend and Backend skills using
+              resources like LinkedIn Learning, Udemy, Coursera, and Codecademy.
             </p>
 
             <p className="text-gray-300 mb-6 font-mono">
@@ -94,7 +92,9 @@ export const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">Frontend Skills</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">
+                Frontend Skills
+              </h3>
               <div className="flex flex-wrap gap-2">
                 {frontendSkills.map((tech, key) => (
                   <span
@@ -108,7 +108,9 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">Backend Skills</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">
+                Backend Skills
+              </h3>
               <div className="flex flex-wrap gap-2">
                 {backendSkills.map((tech, key) => (
                   <span
@@ -122,7 +124,9 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">Business Intelligence Skills</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">
+                Business Intelligence Skills
+              </h3>
               <div className="flex flex-wrap gap-2">
                 {businessIntell.map((tech, key) => (
                   <span
@@ -136,7 +140,9 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">Data Analyst Skills</h3>
+              <h3 className="text-xl font-bold mb-4 font-mono">
+                Data Analyst Skills
+              </h3>
               <div className="flex flex-wrap gap-2">
                 {dataScience.map((tech, key) => (
                   <span
