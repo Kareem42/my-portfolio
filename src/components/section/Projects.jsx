@@ -89,30 +89,30 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-2 font-mono">
                 {" "}
-                Pokemon Starter
+                Banking Application
               </h3>
               <p className="font-mono">
-                A machine learning training model that will assist new trainers
-                to select a starter Pokemon based on Type and Total Stats.
+                Created a secured banking application that would allow customers
+                to view their balance in real-time, deposit and withdraw funds
+                and solving customer problems related to slow transaction
+                processing and lack of transparent financial reporting.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {["Python", "Machine Learning", "Jupyter Notebook"].map(
-                  (tech, key) => (
-                    <span
-                      key={key}
-                      className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                {["Java", "MySQL", "Postman"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                             hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
-                    >
-                      {tech}
-                    </span>
-                  )
-                )}
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Kareem42/python-projects/blob/main/StartingPokemonDecisionTree.ipynb"
+                  href="https://github.com/Kareem42/BankingApp"
                   className="text-indigo-400 font-mono hover:underline transition-colors"
                 >
                   View Project ⇛{" "}
@@ -152,8 +152,8 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
-            </div>
           </div>
+        </div>
       </RevealOnScroll>
     </section>
   );

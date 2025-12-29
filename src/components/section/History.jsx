@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FaBriefcase, FaSchool } from "react-icons/fa";
+import { FaBriefcase } from "react-icons/fa";
 
 export const History = () => {
   return (
@@ -15,7 +15,7 @@ export const History = () => {
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-mono font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent text-center">
-            Work & Education
+            Work History
           </h2>
         </div>
 
@@ -123,29 +123,6 @@ export const History = () => {
               and driving productivity to support timely deliveries and customer
               satisfaction.
             </p>
-          </VerticalTimelineElement>
-        </VerticalTimeline>
-
-        <VerticalTimeline>
-          <VerticalTimelineElement
-            className="font-mono vertical-timeline-element--educcation w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
-            contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
-            date="2015-2016"
-            iconStyle={{ background: "rgb(97,71,185)" }}
-            icon={<FaSchool />}
-            position="left"
-          >
-            <h3 className="vertical-timeline-element-title font-bold font-mono">
-              South Louisiana Community College
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle font-mono">
-              Lafayette, LA
-            </h4>
-            <h4 className="vertical-timeline-element-subtitle font-mono">
-              <strong>ASS in Information Technology</strong>
-            </h4>
-            <p className="font-mono"></p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </RevealOnScroll>
