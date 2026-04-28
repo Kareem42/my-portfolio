@@ -24,7 +24,7 @@ export const History = () => {
             className="font-mono vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
             contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
-            date="2023-present"
+            date="2023-2025"
             iconStyle={{ background: "rgb(98, 71, 186)" }}
             icon={<FaBriefcase />}
             position="left"

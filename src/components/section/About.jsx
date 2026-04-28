@@ -1,44 +1,39 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import Resume from "../../assets/Resume.pdf";
+import Resume from "../../assets/UpdatedResume.pdf";
 
 export const About = () => {
   const frontendSkills = [
-    "React.js",
-    "Vite.js",
-    "Typescript",
+    "React",
+    "Vite",
+    "TypeScript",
     "TailwindCSS",
-    "Javascript",
+    "JavaScript",
     "HTML5",
     "CSS3",
   ];
   const backendSkills = [
-    "Node.js",
-    "Java",
     "PostgreSQL",
-    "Spring",
+    "Java",
     "Spring Boot",
+    "Spring Security",
+    "Spring MVC",
     "Version Control",
     "RESTful APIs",
+    "Hibernate",
   ];
-  const businessIntell = [
+  const dataEngineeringAnalytics = [
+    "Python",
+    "MySQL",
+    "Data Modeling",
     "Power Query",
     "Power Pivot",
-    "Business Objects",
-    "Excel",
+    "Business Objects Enterprise",
+    "Microsoft 365",
     "Power Automate",
-    "PowerPoint",
     "DAX",
-    "PowerBI",
+    "Power BI",
   ];
-  const dataScience = [
-    "MySQL",
-    "Python",
-    "Tableau",
-    "Machine Learning",
-    "Data Warehousing",
-    "Data Cleaning and Prepation",
-    "Data Visulization",
-  ];
+  const devOpsInfrastructure = ["Git/GitHub", "CI/CD", "Docker"];
 
   return (
     <section
@@ -93,22 +88,6 @@ export const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
-                Frontend Skills
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {frontendSkills.map((tech, key) => (
-                  <span
-                    key={key}
-                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                            hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">
                 Backend Skills
               </h3>
               <div className="flex flex-wrap gap-2">
@@ -125,10 +104,27 @@ export const About = () => {
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
-                Business Intelligence Skills
+                Frontend Skills
               </h3>
               <div className="flex flex-wrap gap-2">
-                {businessIntell.map((tech, key) => (
+                {frontendSkills.map((tech, key) => (
+                  <span
+                    key={key}
+                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                            hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4 font-mono">
+                Data Engineering & Analytics Skills
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {dataEngineeringAnalytics.map((tech, key) => (
                   <span
                     key={key}
                     className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -141,10 +137,10 @@ export const About = () => {
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
-                Data Analyst Skills
+                DevOps/Infrastructure Skills
               </h3>
               <div className="flex flex-wrap gap-2">
-                {dataScience.map((tech, key) => (
+                {devOpsInfrastructure.map((tech, key) => (
                   <span
                     key={key}
                     className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20

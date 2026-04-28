@@ -15,23 +15,22 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-2 font-mono">
                 {" "}
-                Face Recognition Smart Brain Application
+                Dallas Learning Center
               </h3>
               <p className="font-mono">
-                A full-stack web application that detects a face using Machine
-                Learning API. UI built in React Js, RESTful Node/Express server
-                and PostgreSQL database.
+                A full-stack web application built during a 6-week software
+                engineering cohort. It is designed to improve how tutoring
+                centers manage sessions, track student progress, and retain
+                customers.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
                 {[
-                  "React",
-                  "Node.js",
-                  "Javascript",
-                  "HTML5",
-                  "CSS3",
-                  "Express.js",
+                  "React + Vite",
+                  "Java + Spring Boot",
                   "PostgreSQL",
+                  "Spring Security",
+                  "Typescript",
                 ].map((tech, key) => (
                   <span
                     key={key}
