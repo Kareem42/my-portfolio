@@ -12,7 +12,7 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-2 font-mono">
                 {" "}
                 Dallas Learning Center
@@ -57,21 +57,24 @@ export const Projects = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-2 font-mono">
                 {" "}
                 Sentinel API Dashboard
               </h3>
               <p className="font-mono">
-                This is the Backend Server that was created to store all of the
-                registered users in the Face Recognition Smart Brain application
-                with Clarifai WebAPI.
+                A lightweight, self-hosted service uptime monitoring
+                application. Register your external microservices or websites by
+                URL, and Sentinel will automatically track their availability,
+                pinging them on a background thread and reporting their
+                real-time status.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4 font-mono">
                 {[
                   "React + Vite + TypeScript",
                   "Spring Boot",
+                  "Spring Security",
                   "PostgreSQL",
                   "Docker",
                 ].map((tech, key) => (
@@ -92,16 +95,10 @@ export const Projects = () => {
                 >
                   GitHub Repo ⇛{" "}
                 </a>
-                <a
-                  href="https://github.com/Kareem42/smartbrain-api"
-                  className="text-indigo-400 font-mono hover:underline transition-colors"
-                >
-                  Live Demo ⇛{" "}
-                </a>
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-2 font-mono">
                 {" "}
                 Banking Application
@@ -135,7 +132,7 @@ export const Projects = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-2 font-mono">
                 {" "}
                 Restaurant Orders Analysis

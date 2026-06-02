@@ -19,12 +19,9 @@ export const Home = () => {
           {/* </SplitComponent> */}
 
           <p className="text-gray-400 dark:text-gray-300 text-lg mb-8 max-w-lg mx-auto font-mono">
-            I’m a Full Stack Engineer with a passion for innovation, blending my
-            professional skills in Business Intelligence and self taught
-            Frontend Skills. I know it might sound like the stuff of myths —
-            unicorn of sorts — but as you› explore this portfolio, you&apos;ll
-            discover just how real and possible this &quot;mythical
-            unicorn&quot; truly is.
+            I&apos;m a Full Stack Engineer who bridges Business Intelligence and
+            frontend development — combining analytical depth with modern UI
+            craft to build products end to end.
           </p>
           <div className="flex justify-center space-x-4">
             <a

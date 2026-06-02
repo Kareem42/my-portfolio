@@ -9,7 +9,7 @@ export default defineConfig({
   base: "/my-portfolio",
   resolve: {
     alias: {
-      "@": path.resolve("my-portfolio", "./src"),
+      "@": path.resolve(__dirname, "./src"),
     },
   },
 });

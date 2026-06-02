@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import Resume from "../../assets/UpdatedResume.pdf";
+import Resume from "../../assets/Resume202606.pdf";
 
 export const About = () => {
   const frontendSkills = [
@@ -48,40 +48,28 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6 font-mono">
-              I&apos;m a self-proclaimed nerdy athlete with a deep passion for
-              basketball—playing it, watching it, and analyzing the game from
-              every angle. When I&apos;m not on the court, you&apos;ll likely
-              find me immersed in anime, with classics like Bleach and Kenichi:
-              The Mightiest Disciple holding a special place in my heart.
-              I&apos;m also an avid gamer who dives into the worlds of MMORPGs,
-              FPS, and MOBA games, such as World of Warcraft, Guild Wars 2,
-              Battlefield 6, League of Legends, and Dota 2.
+              I&apos;m a self-proclaimed nerdy athlete who lives for basketball
+              — playing, watching, and breaking down every detail of the game.
+              Off the court I&apos;m deep in anime classics like Bleach and
+              Kenichi, or grinding MMORPGs, FPS, and MOBAs (WoW, Guild Wars 2,
+              Battlefield 6, League of Legends, Dota 2). My biggest fans are my
+              wife and our 9-year-old Chihuahua Chester, the self-appointed
+              &quot;Head of Security.&quot;
             </p>
 
             <p className="text-gray-300 mb-6 font-mono">
-              My greatest supporters are my wife and our spirited 9-year-old
-              Chihuahua, Chester, who proudly serves as &apos;Head of
-              Security.&apos; I owe much of who I am today to their unwavering
-              encouragement.
+              My path into tech started in 2015 with a Java course at South
+              Louisiana Community College in Lafayette, Louisiana. After three
+              years in warehouse logistics, I moved to Dallas in 2020 and used
+              the COVID slowdown to self-teach frontend and backend development
+              through LinkedIn Learning, Udemy, Coursera, and Codecademy.
             </p>
 
             <p className="text-gray-300 mb-6 font-mono">
-              My journey into programming began in 2015 when I took a Java
-              Application Development course at a community college in
-              Louisiana. I spent three years working in a warehouse for a liquor
-              distributor in Lafayette before transferring to Dallas in 2020.
-              During that transformative year, amid COVID restrictions, I seized
-              the opportunity to teach myself Frontend and Backend skills using
-              resources like LinkedIn Learning, Udemy, Coursera, and Codecademy.
-            </p>
-
-            <p className="text-gray-300 mb-6 font-mono">
-              This dedication to self-improvement and constant learning fueled
-              my transition to a Business Intelligence Analyst role in 2022.
-              It’s also what inspired me to create this portfolio and other
-              exciting projects. My passion for technology and my can-do
-              attitude continue to drive me as I explore new opportunities and
-              challenges.
+              That dedication to self-improvement led from a Business
+              Intelligence Analyst role in 2022 to Business Intelligence Manager
+              in 2023 and eventually curiosity and can-do attitude keep me
+              pushing toward new challenges and opportunities.
             </p>
           </div>
 
