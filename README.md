@@ -8,7 +8,7 @@ This repository is based on the official Vite + React template and includes a si
 
 ## Demo
 
-Add a link to a live demo here (e.g. GitHub Pages, Vercel, Netlify): https://your-domain.example
+Add a link to a live demo here (e.g. GitHub Pages, Vercel, Netlify): https://kareem42.github.io/my-portfolio
 
 ---
 
@@ -143,6 +143,5 @@ Add a license (e.g., MIT) or a note that this repository is private/personal.
 
 ## Contact
 
-Your Name — email@example.com
-
-Link to your LinkedIn, Twitter, or other contact methods.
+Your Name — kareem42@gmail.com
+LinkedIn - https://www.linkedin.com/in/justin-alcendor-16a738131/
