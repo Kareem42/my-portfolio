@@ -1,40 +1,12 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import Resume from "../../assets/Resume202606.pdf";
+import {
+  FRONTEND_SKILLS,
+  BACKEND_SKILLS,
+  DATA_ENGINEERING_SKILLS,
+  DEVOPS_SKILLS,
+} from "../../types/index";
 
 export const About = () => {
-  const frontendSkills = [
-    "React",
-    "Vite",
-    "TypeScript",
-    "TailwindCSS",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-  ];
-  const backendSkills = [
-    "PostgreSQL",
-    "Java",
-    "Spring Boot",
-    "Spring Security",
-    "Spring MVC",
-    "Version Control",
-    "RESTful APIs",
-    "Hibernate",
-  ];
-  const dataEngineeringAnalytics = [
-    "Python",
-    "MySQL",
-    "Data Modeling",
-    "Power Query",
-    "Power Pivot",
-    "Business Objects Enterprise",
-    "Microsoft 365",
-    "Power Automate",
-    "DAX",
-    "Power BI",
-  ];
-  const devOpsInfrastructure = ["Git/GitHub", "CI/CD", "Docker"];
-
   return (
     <section
       id="about"
@@ -79,7 +51,7 @@ export const About = () => {
                 Backend Skills
               </h3>
               <div className="flex flex-wrap gap-2">
-                {backendSkills.map((tech, key) => (
+                {BACKEND_SKILLS.map((tech, key) => (
                   <span
                     key={key}
                     className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -95,7 +67,7 @@ export const About = () => {
                 Frontend Skills
               </h3>
               <div className="flex flex-wrap gap-2">
-                {frontendSkills.map((tech, key) => (
+                {FRONTEND_SKILLS.map((tech, key) => (
                   <span
                     key={key}
                     className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -112,7 +84,7 @@ export const About = () => {
                 Data Engineering & Analytics Skills
               </h3>
               <div className="flex flex-wrap gap-2">
-                {dataEngineeringAnalytics.map((tech, key) => (
+                {DATA_ENGINEERING_SKILLS.map((tech, key) => (
                   <span
                     key={key}
                     className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -128,7 +100,7 @@ export const About = () => {
                 DevOps/Infrastructure Skills
               </h3>
               <div className="flex flex-wrap gap-2">
-                {devOpsInfrastructure.map((tech, key) => (
+                {DEVOPS_SKILLS.map((tech, key) => (
                   <span
                     key={key}
                     className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -142,7 +114,7 @@ export const About = () => {
           </div>
           <div className="text-center mt-10">
             <a
-              href={Resume}
+              href="/FullStackResume2026.docx"
               download="Resume.pdf"
               className="font-mono border border-indigo-500/50 text-gray-400 dark:text-gray-300 py-3 px-6 rounded font-medium transition-all duration-200 
              hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
