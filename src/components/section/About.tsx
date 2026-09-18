@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { SkillCategoryCard } from "../SkillCategoryCard";
 import {
   FRONTEND_SKILLS,
   BACKEND_SKILLS,
@@ -25,7 +26,7 @@ export const About = () => {
               Off the court I&apos;m deep in anime classics like Bleach and
               Kenichi, or grinding MMORPGs, FPS, and MOBAs (WoW, Guild Wars 2,
               Battlefield 6, League of Legends, Dota 2). My biggest fans are my
-              wife and our 9-year-old Chihuahua Chester, the self-appointed
+              wife and our 10-year-old Chihuahua Chester, the self-appointed
               &quot;Head of Security.&quot;
             </p>
 
@@ -44,75 +45,19 @@ export const About = () => {
               pushing toward new challenges and opportunities.
             </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">
-                Backend Skills
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {BACKEND_SKILLS.map((tech, key) => (
-                  <span
-                    key={key}
-                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                            hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">
-                Frontend Skills
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {FRONTEND_SKILLS.map((tech, key) => (
-                  <span
-                    key={key}
-                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                            hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">
-                Data Engineering & Analytics Skills
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {DATA_ENGINEERING_SKILLS.map((tech, key) => (
-                  <span
-                    key={key}
-                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                            hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4 font-mono">
-                DevOps/Infrastructure Skills
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {DEVOPS_SKILLS.map((tech, key) => (
-                  <span
-                    key={key}
-                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                            hover:shadow-[0_2px_8px_rgba[(59,130,246,0.2)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div className="text-center mt-10">
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center max-w-3xl mx-auto px-4">
+          <SkillCategoryCard title="Backend Skills" skills={BACKEND_SKILLS} />
+          <SkillCategoryCard title="Frontend Skills" skills={FRONTEND_SKILLS} />
+          <SkillCategoryCard
+            title="Data Engineering & Analytics Skills"
+            skills={DATA_ENGINEERING_SKILLS}
+          />
+          <SkillCategoryCard
+            title="DevOps/Infrastructure Skills"
+            skills={DEVOPS_SKILLS}
+          />
+          <div className="col-span-full text-center mt-10">
             <a
               href="/FullStackResume2026.docx"
               download="Resume.pdf"
