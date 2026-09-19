@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import heroPic from "../../assets/heroPic.png";
 // import SplitComponent from "../SplitComponent";
 
 export const Home = () => {
@@ -9,6 +10,13 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
+          <div className="mb-8 flex justify-center">
+            <img
+              src={heroPic}
+              alt="Justin Alcendor"
+              className="w-48 h-48 rounded-full object-cover border-4 border-indigo-500/30"
+            />
+          </div>
           {/* <SplitComponent selector="#heading"> */}
           <h1
             id="heading"
@@ -19,9 +27,9 @@ export const Home = () => {
           {/* </SplitComponent> */}
 
           <p className="text-gray-400 dark:text-gray-300 text-lg mb-8 max-w-lg mx-auto font-mono">
-            I&apos;m a Full Stack Engineer who bridges Business Intelligence and
-            frontend development — combining analytical depth with modern UI
-            craft to build products end to end.
+            Full Stack Engineer leveraging deep Business Intelligence expertise
+            and modern software engineering to build high-impact, end-to-end
+            solutions.
           </p>
           <div className="flex justify-center space-x-4">
             <a
