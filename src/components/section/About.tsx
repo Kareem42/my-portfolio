@@ -19,18 +19,18 @@ export const About = () => {
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6 font-mono">
-              I&apos;m a self-proclaimed nerdy athlete who lives for basketball
-              — playing, watching, and breaking down every detail of the game.
-              Off the court I&apos;m deep in anime classics like Bleach and
-              Kenichi, or grinding MMORPGs, FPS, and MOBAs (WoW, Guild Wars 2,
-              Battlefield 6, League of Legends, Dota 2). My biggest fans are my
-              wife and our 10-year-old Chihuahua Chester, the self-appointed
-              &quot;Head of Security.&quot;
+          <div className="rounded-xl p-8 border-border border hover:-translate-y-1 transition-all">
+            <p className="mb-6 font-mono">
+              I&apos;m a nerdy athlete who lives for basketball — playing,
+              watching, and breaking down every detail of the game. Off the
+              court, I&apos;m deep in anime classics like Bleach and Kenichi The
+              Mightest Disciple, or grinding MMORPGs, FPS, and MOBAs (WoW, Guild
+              Wars 2, Battlefield 6, League of Legends, Dota 2). My biggest fans
+              are my wife and our 10-year-old Chihuahua Chester, the
+              self-appointed &quot;Head of Security.&quot;
             </p>
 
-            <p className="text-gray-300 mb-6 font-mono">
+            <p className="mb-6 font-mono">
               My path into tech started in 2015 with a Java course at South
               Louisiana Community College in Lafayette, Louisiana. After three
               years in warehouse logistics, I moved to Dallas in 2020 and used
@@ -38,7 +38,7 @@ export const About = () => {
               through LinkedIn Learning, Udemy, Coursera, and Codecademy.
             </p>
 
-            <p className="text-gray-300 mb-6 font-mono">
+            <p className="mb-6 font-mono">
               That dedication to self-improvement led from a Business
               Intelligence Analyst role in 2022 to Business Intelligence Manager
               in 2023 and eventually curiosity and can-do attitude keep me
@@ -61,10 +61,11 @@ export const About = () => {
             <a
               href="/FullStackResume2026.docx"
               download="Resume.pdf"
-              className="font-mono border border-indigo-500/50 text-gray-400 dark:text-gray-300 py-3 px-6 rounded font-medium transition-all duration-200 
-             hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
+              className="inline-flex font-mono items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
             >
-              Download CV
+              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
+                Download CV
+              </span>
             </a>
           </div>
         </div>

@@ -43,7 +43,7 @@ export const Contact = () => {
                 name="name"
                 required
                 value={formData.name}
-                className="w-full bg-white/5 font-mono border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+                className="w-full bg-input/30 font-mono border border-border rounded px-4 py-3 text-foreground transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
                 placeholder="Name..."
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
@@ -58,7 +58,7 @@ export const Contact = () => {
                 name="email"
                 required
                 value={formData.email}
-                className="w-full bg-white/5 border font-mono border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+                className="w-full bg-input/30 border font-mono border-border rounded px-4 py-3 text-foreground transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
                 placeholder="example@gmail.com"
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
@@ -73,7 +73,7 @@ export const Contact = () => {
                 required
                 rows={5}
                 value={formData.message}
-                className="w-full bg-white/5 border font-mono border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+                className="w-full bg-input/30 border font-mono border-border rounded px-4 py-3 text-foreground transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
                 placeholder="Your Message..."
                 onChange={(e) =>
                   setFormData({ ...formData, message: e.target.value })

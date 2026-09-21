@@ -13,7 +13,7 @@ export const Achievements = () => {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
                 The Business Intelligence Analyst Course 2024
               </h3>
@@ -31,7 +31,7 @@ export const Achievements = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
                 Introduction to Software Engineering
               </h3>
@@ -50,7 +50,7 @@ export const Achievements = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
                 Designing User Interfaces and Experiences - UI/UX
               </h3>
@@ -69,7 +69,7 @@ export const Achievements = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
                 Introduction to HTML, CSS, & JavaScript
               </h3>
@@ -88,7 +88,7 @@ export const Achievements = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
                 Developing Websites and Front-Ends with Bootstrap
               </h3>
@@ -107,7 +107,7 @@ export const Achievements = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
                 Delevoping Front-end Applications with React
               </h3>
@@ -126,7 +126,7 @@ export const Achievements = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
                 Intermediate Web and Front-End Development
               </h3>
@@ -145,7 +145,7 @@ export const Achievements = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shado-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-4 font-mono">
                 Spring Boot 3, Spring 6, Hibernate
               </h3>
