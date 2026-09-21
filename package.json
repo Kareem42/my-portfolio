@@ -13,11 +13,14 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@base-ui/react": "^1.8.0",
+    "@fontsource-variable/geist": "^5.3.0",
     "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.0.8",
     "animejs": "^4.2.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "cn": "^0.3.2",
     "emailjs-com": "^3.2.0",
     "gsap": "^3.13.0",
     "lucide-react": "^0.542.0",
@@ -29,6 +32,7 @@
     "react-icons": "^5.5.0",
     "react-timeline": "^0.0.9",
     "react-vertical-timeline-component": "^3.5.3",
+    "shadcn": "^4.21.0",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.0.8",
     "tw-animate-css": "^1.3.7"
@@ -38,6 +42,7 @@
     "@types/node": "^26.6.1",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.19.0",
     "eslint-plugin-react": "^7.37.4",

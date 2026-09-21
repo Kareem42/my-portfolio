@@ -22,7 +22,7 @@ export const History = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="font-mono vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
-            contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
+            contentStyle={{ background: "var(--card)", color: "var(--card-foreground)" }}
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2023-2025"
             iconStyle={{ background: "rgb(98, 71, 186)" }}
@@ -48,7 +48,7 @@ export const History = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="font-mono vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
-            contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
+            contentStyle={{ background: "var(--card)", color: "var(--card-foreground)" }}
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2022-2023"
             iconStyle={{ background: "rgb(97,71,185)" }}
@@ -74,7 +74,7 @@ export const History = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="font-mono vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
-            contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
+            contentStyle={{ background: "var(--card)", color: "var(--card-foreground)" }}
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2020-2022"
             iconStyle={{ background: "rgb(97,71,185)" }}
@@ -101,7 +101,7 @@ export const History = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="font-mono vertical-timeline-element--work w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
-            contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
+            contentStyle={{ background: "var(--card)", color: "var(--card-foreground)" }}
             contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
             date="2017-2020"
             iconStyle={{ background: "rgb(97,71,185)" }}

@@ -26,7 +26,7 @@ export const Home = () => {
           </h1>
           {/* </SplitComponent> */}
 
-          <p className="text-gray-400 dark:text-gray-300 text-lg mb-8 max-w-lg mx-auto font-mono">
+          <p className="text-lg mb-8 max-w-lg mx-auto font-mono">
             Full Stack Engineer leveraging deep Business Intelligence expertise
             and modern software engineering to build high-impact, end-to-end
             solutions.
@@ -41,7 +41,7 @@ export const Home = () => {
 
             <a
               href="#contact"
-              className="font-mono border border-indigo-500/50 text-gray-400 dark:text-gray-300 py-3 px-6 rounded font-medium transition-all duration-200 
+              className="font-mono border border-indigo-500/50 text-muted-foreground py-3 px-6 rounded font-medium transition-all duration-200 
              hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
             >
               Contact Me
