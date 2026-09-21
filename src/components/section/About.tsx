@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import { SkillCategoryCard } from "../SkillCategoryCard";
+import { SkillCategoryCard } from "../ui/card/SkillCategoryCard";
 import {
   FRONTEND_SKILLS,
   BACKEND_SKILLS,

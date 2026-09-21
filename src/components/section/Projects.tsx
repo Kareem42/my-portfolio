@@ -1,4 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { ProjectCard } from "../ui/card/ProjectCard";
+import { PROJECTS } from "../../types/index";
 
 export const Projects = () => {
   return (
@@ -12,158 +14,9 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2 font-mono">
-                {" "}
-                Dallas Learning Center
-              </h3>
-              <p className="font-mono">
-                A full-stack web application built during a 6-week software
-                engineering cohort. It is designed to improve how tutoring
-                centers manage sessions, track student progress, and retain
-                customers.
-              </p>
-
-              <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {[
-                  "React + Vite + TypeScript",
-                  "Java + Spring Boot",
-                  "PostgreSQL",
-                  "Spring Security",
-                ].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                            hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://github.com/allaboutmike/learning-center-manager"
-                  className="text-indigo-400 font-mono hover:underline transition-colors"
-                >
-                  GitHub Repo ⇛{" "}
-                </a>
-                <a
-                  href="https://capable-blini-676354.netlify.app/"
-                  className="text-indigo-400 font-mono hover:underline transition-colors"
-                >
-                  Live Demo ⇛{" "}
-                </a>
-              </div>
-            </div>
-
-            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2 font-mono">
-                {" "}
-                Sentinel API Dashboard
-              </h3>
-              <p className="font-mono">
-                A lightweight, self-hosted service uptime monitoring
-                application. Register your external microservices or websites by
-                URL, and Sentinel will automatically track their availability,
-                pinging them on a background thread and reporting their
-                real-time status.
-              </p>
-
-              <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {[
-                  "React + Vite + TypeScript",
-                  "Spring Boot",
-                  "Spring Security",
-                  "PostgreSQL",
-                  "Docker",
-                ].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                            hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://github.com/Kareem42/smartbrain-api"
-                  className="text-indigo-400 font-mono hover:underline transition-colors"
-                >
-                  GitHub Repo ⇛{" "}
-                </a>
-              </div>
-            </div>
-
-            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2 font-mono">
-                {" "}
-                Banking Application
-              </h3>
-              <p className="font-mono">
-                Created a secured banking application that would allow customers
-                to view their balance in real-time, deposit and withdraw funds
-                and solving customer problems related to slow transaction
-                processing and lack of transparent financial reporting.
-              </p>
-
-              <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {["Java", "MySQL", "Postman"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                            hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://github.com/Kareem42/BankingApp"
-                  className="text-indigo-400 font-mono hover:underline transition-colors"
-                >
-                  View Project ⇛{" "}
-                </a>
-              </div>
-            </div>
-
-            <div className="p-6 rounded-xl border border-border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2 font-mono">
-                {" "}
-                Restaurant Orders Analysis
-              </h3>
-              <p className="font-mono">
-                A SQL-based project analyzing a fictitious restaurant serving
-                international cuisine. The objective is to identify top-selling
-                items and recommend potential menu optimizations by removing
-                underperforming dishes.
-              </p>
-
-              <div className="flex flex-wrap gap-2 mb-4 font-mono">
-                {["MySQL"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 font-mono text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                            hover:shadow-[0_2px_8px_rgba[(59,130,246,0.1)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://github.com/Kareem42/Restaurant-Orders-Analysis"
-                  className="text-indigo-400 font-mono hover:underline transition-colors"
-                >
-                  View Project ⇛{" "}
-                </a>
-              </div>
-            </div>
+            {PROJECTS.map((project) => (
+              <ProjectCard key={project.title} {...project} />
+            ))}
           </div>
         </div>
       </RevealOnScroll>
