@@ -1,9 +1,33 @@
-// import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
+  const closeButtonRef = useRef(null);
+
+  useEffect(() => {
+    if (menuOpen) {
+      closeButtonRef.current?.focus();
+    }
+  }, [menuOpen]);
+
+  useEffect(() => {
+    if (!menuOpen) return;
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+      }
+    };
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [menuOpen, setMenuOpen]);
+
   return (
     <div
+      id="mobile-menu"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Mobile navigation"
+      inert={!menuOpen}
       className={`fixed top-0 left-0 w-full bg-background/95 z-40 flex flex-col items-center justify-center
                      transition-all duration-300 ease-in-out
 
@@ -15,11 +39,12 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                    `}
     >
       <button
+        ref={closeButtonRef}
         onClick={() => setMenuOpen(false)}
-        className="absolute top-6 right-6 text-foreground text-3xl focus:outline-none cursor-pointer"
+        className="absolute top-6 right-6 text-foreground text-3xl focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 rounded-sm cursor-pointer"
         aria-label="Close Menu"
       >
-        &times;
+        <span aria-hidden="true">&times;</span>
       </button>
 
       <a
