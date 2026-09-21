@@ -1,10 +1,20 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { ModeToggle } from "@/lib/mode-toggle";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
+  const menuButtonRef = useRef(null);
+  const wasMenuOpen = useRef(menuOpen);
+
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
+  }, [menuOpen]);
+
+  useEffect(() => {
+    if (wasMenuOpen.current && !menuOpen) {
+      menuButtonRef.current?.focus();
+    }
+    wasMenuOpen.current = menuOpen;
   }, [menuOpen]);
 
   return (
@@ -16,12 +26,17 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             Just.<span className="Font-mono text-indigo-400">in.Time</span>{" "}
           </a>
 
-          <div
-            className="w-7 h-5 relative cursor-pointer z-40 md:hidden text-foreground"
+          <button
+            type="button"
+            ref={menuButtonRef}
+            className="w-7 h-5 relative z-40 md:hidden text-foreground focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 rounded-sm"
             onClick={() => setMenuOpen((prev) => !prev)}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-menu"
           >
-            &#9776;
-          </div>
+            <span aria-hidden="true">&#9776;</span>
+          </button>
 
           <div className="hidden md:flex items-center space-x-8">
             <a
