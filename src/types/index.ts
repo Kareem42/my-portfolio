@@ -87,7 +87,7 @@ export const PROJECTS: readonly Project[] = [
       "PostgreSQL",
       "Docker",
     ],
-    repoLink: "https://github.com/Kareem42/smartbrain-api",
+    repoLink: "https://github.com/Kareem42/Sentinel",
     // demoLink: "https://capable-blini-676354.netlify.app/",
   },
   {
@@ -101,7 +101,7 @@ export const PROJECTS: readonly Project[] = [
   {
     title: "Wired! Audio & Media, LLC",
     description:
-      "A lightweight, self-hosted service uptime monitoring application. Register your external microservices or websites by URL, and Sentinel will automatically track their availability, pinging them on a background thread and reporting their real-time status.",
+      "A revamped website for a local audio company with a CRM system for better appointment tracking, customer management, and personnel management.",
     techStack: [
       "Next.js + TypeScript",
       "Java Spring Boot",
@@ -109,7 +109,7 @@ export const PROJECTS: readonly Project[] = [
       "Supabase + PostgreSQL",
       // "Docker",
     ],
-    repoLink: "https://github.com/Kareem42/smartbrain-api",
+    repoLink: "https://github.com/NedTurner613/WiredAV_LLC_FrontEnd",
     // demoLink: "https://capable-blini-676354.netlify.app/",
   },
 ] as const;
