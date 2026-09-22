@@ -21,11 +21,9 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-border border hover:-translate-y-1 transition-all">
             <p className="mb-6 font-mono">
-              I'm a Business Intelligence Manager transitioning into full stack
+              A Business Intelligence Manager whose transitioned into full stack
               software engineering, building applications in Java Spring Boot
-              and React and targeting SWE I/II roles. My background is in BI and
-              data analytics - ETL pipelines, budget systems, dashboards - and I
-              bring that same analytical rigor to writing clean, tested,
+              and React, bringing that same analytical rigor to writing clean, tested,
               production-ready code.
             </p>
 
