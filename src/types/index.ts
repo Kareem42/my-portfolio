@@ -88,7 +88,6 @@ export const PROJECTS: readonly Project[] = [
       "Docker",
     ],
     repoLink: "https://github.com/Kareem42/Sentinel",
-    repoLink: "https://github.com/Kareem42/Sentinel",
     // demoLink: "https://capable-blini-676354.netlify.app/",
   },
   {
@@ -103,7 +102,6 @@ export const PROJECTS: readonly Project[] = [
     title: "Wired! Audio & Media, LLC",
     description:
       "A complete revamp of a local company website with an added CRM system for easier tracking with appointments and improvement for website traffic.",
-      "A revamped website for a local audio company with a CRM system for better appointment tracking, customer management, and personnel management.",
     techStack: [
       "Next.js + TypeScript",
       "Java Spring Boot",
@@ -111,7 +109,6 @@ export const PROJECTS: readonly Project[] = [
       "Supabase + PostgreSQL",
       // "Docker",
     ],
-    repoLink: "https://github.com/NedTurner613/WiredAV_LLC_FrontEnd",
     repoLink: "https://github.com/NedTurner613/WiredAV_LLC_FrontEnd",
     // demoLink: "https://capable-blini-676354.netlify.app/",
   },
