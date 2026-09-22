@@ -6,7 +6,7 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/section/Home";
 import { About } from "./components/section/About";
 import { History } from "./components/section/History";
-import { Achievements } from "./components/section/Achievements";
+// import { Achievements } from "./components/section/Achievements";
 import { Projects } from "./components/section/Projects";
 import { Contact } from "./components/section/Contact";
 import { Footer } from "./components/section/Footer";
@@ -28,7 +28,7 @@ function App() {
         <Home />
         <About />
         <Projects />
-        <Achievements />
+        {/* <Achievements /> */}
         <History />
         <Contact />
         <Footer />
