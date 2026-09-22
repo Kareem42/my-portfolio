@@ -21,13 +21,12 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-border border hover:-translate-y-1 transition-all">
             <p className="mb-6 font-mono">
-              I&apos;m a nerdy athlete who lives for basketball — playing,
-              watching, and breaking down every detail of the game. Off the
-              court, I&apos;m deep in anime classics like Bleach and Kenichi The
-              Mightest Disciple, or grinding MMORPGs, FPS, and MOBAs (WoW, Guild
-              Wars 2, Battlefield 6, League of Legends, Dota 2). My biggest fans
-              are my wife and our 10-year-old Chihuahua Chester, the
-              self-appointed &quot;Head of Security.&quot;
+              I'm a Business Intelligence Manager transitioning into full stack
+              software engineering, building applications in Java Spring Boot
+              and React and targeting SWE I/II roles. My background is in BI and
+              data analytics - ETL pipelines, budget systems, dashboards - and I
+              bring that same analytical rigor to writing clean, tested,
+              production-ready code.
             </p>
 
             <p className="mb-6 font-mono">
@@ -35,14 +34,21 @@ export const About = () => {
               Louisiana Community College in Lafayette, Louisiana. After three
               years in warehouse logistics, I moved to Dallas in 2020 and used
               the COVID slowdown to self-teach frontend and backend development
-              through LinkedIn Learning, Udemy, Coursera, and Codecademy.
+              - the persistence that eventually carried me from BI Analyst to BI
+              Manager, and now into full stack engineering.
             </p>
 
             <p className="mb-6 font-mono">
-              That dedication to self-improvement led from a Business
-              Intelligence Analyst role in 2022 to Business Intelligence Manager
-              in 2023 and eventually curiosity and can-do attitude keep me
-              pushing toward new challenges and opportunities.
+              Outside of code, I bring that same drive to basketball - on the
+              court, breaking down film, and volunteering with Build and Ball, a
+              mental health initiative that uses competitive basketball to open
+              conversations people often struggle to have out loud, so no one
+              walks away thinking they're the only one carrying what they're
+              carrying. I'm also deep into anime, such as Bleach, Kenichi The
+              Mightiest Disciple, and grinding MMORPGs, FPS, MOBAs - WoW, Guild
+              Wars 2, Battlefield 6, League, Dota 2. My biggest fans are my wife
+              and our 10-year-old Chihuahua Chester, self-appointed Head of
+              Security.
             </p>
           </div>
         </div>
