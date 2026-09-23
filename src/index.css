@@ -70,6 +70,16 @@ button{
   transform: translateY(0);
 }
 
+.split-parent * {
+  background-image: inherit;
+  -webkit-background-clip: inherit;
+  background-clip: inherit;
+  color: inherit;
+  -webkit-text-fill-color: inherit;
+}
+
+
+
 /* ---break---*/
 
 @theme inline {
