@@ -1,8 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import heroPic from "../../assets/heroPic.png";
-// import SplitComponent from "../SplitComponent";
+import SplitComponent from "../SplitComponent";
 
-export const Home = () => {
+export const Home = ({ isLoaded }: { isLoaded: boolean }) => {
   return (
     <section
       id="home"
@@ -18,13 +18,21 @@ export const Home = () => {
             />
           </div>
           {/* <SplitComponent selector="#heading"> */}
-          <h1
-            id="heading"
-            className="text-5xl md:text-6xl font-mono font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text leading-right text-transparent"
-          >
-            Hi, I am Justin Alcendor
-          </h1>
-          {/* </SplitComponent> */}
+          <SplitComponent
+            tag="h1"
+            text="Hi, I'm Justin Alcendor"
+            className="text-5xl md:text-6xl font-mono font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent text-center"
+            delay={100}
+            duration={1.25}
+            ease="power3.out"
+            splitType="lines"
+            from={{ opacity: 0, y: 40 }}
+            to={{ opacity: 1, y: 0 }}
+            threshold={0.1}
+            rootMargin="-100px"
+            textAlign="center"
+            active={isLoaded}
+          />
 
           <p className="text-lg mb-8 max-w-lg mx-auto font-mono">
             Full Stack Engineer leveraging deep Business Intelligence expertise
