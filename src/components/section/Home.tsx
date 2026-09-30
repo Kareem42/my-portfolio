@@ -21,11 +21,12 @@ export const Home = ({ isLoaded }: { isLoaded: boolean }) => {
           <SplitComponent
             tag="h1"
             text="Hi, I'm Justin Alcendor"
-            className="text-5xl md:text-6xl font-mono font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent text-center"
+            className="text-5xl md:text-6xl font-mono font-bold mb-6 text-center"
+            gradient={{ from: "#3b82f6", to: "#c084fc" }}
             delay={100}
             duration={1.25}
             ease="power3.out"
-            splitType="lines"
+            splitType="chars"
             from={{ opacity: 0, y: 40 }}
             to={{ opacity: 1, y: 0 }}
             threshold={0.1}
