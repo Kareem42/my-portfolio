@@ -11,6 +11,7 @@ export interface SplitTextProps {
   className?: string;
   delay?: number;
   duration?: number;
+  gradient?: { from: string; to: string };
   ease?: string | ((t: number) => number);
   splitType?: "chars" | "words" | "lines" | "words, chars";
   from?: gsap.TweenVars;
@@ -36,6 +37,7 @@ const SplitText: React.FC<SplitTextProps> = ({
   rootMargin = "-100px",
   tag = "p",
   textAlign = "center",
+  gradient,
   onLetterAnimationComplete,
   active = true,
 }) => {
@@ -119,6 +121,19 @@ const SplitText: React.FC<SplitTextProps> = ({
         reduceWhiteSpace: false,
         onSplit: (self: GSAPSplitText) => {
           assignTargets(self);
+          if (gradient && splitType.includes("chars")) {
+            const chars = self.chars as HTMLElement[];
+            const lerp = (a: number, b: number, t: number) =>
+              Math.round(a + (b - a) * t);
+            const hex = (h: string) =>
+              [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+            const [r1, g1, b1] = hex(gradient.from);
+            const [r2, g2, b2] = hex(gradient.to);
+            chars.forEach((c, i) => {
+              const t = chars.length > 1 ? i / (chars.length - 1) : 0;
+              c.style.color = `rgb(${lerp(r1, r2, t)}, ${lerp(g1, g2, t)}, ${lerp(b1, b2, t)})`;
+            });
+          }
           return gsap.fromTo(
             targets,
             { ...from },
