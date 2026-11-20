@@ -11,6 +11,7 @@ import { Projects } from "./components/section/Projects";
 import { Contact } from "./components/section/Contact";
 import { Footer } from "./components/section/Footer";
 
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,7 +20,7 @@ function App() {
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}{" "}
       <div
-        className={`min-h-screen transition-opacity duration-700 ${
+        className={`relative min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-background text-foreground`}
       >

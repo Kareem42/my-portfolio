@@ -12,6 +12,20 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
+.site-atmosphere {
+  background:
+    radial-gradient(
+      ellipse 80% 50% at 12% 8%,
+      oklch(0.5 0.18 275 / 0.38),
+      transparent 62%
+    ),
+    radial-gradient(
+      ellipse 55% 40% at 92% 88%,
+      oklch(0.48 0.16 310 / 0.28),
+      transparent 58%
+    );
+}
+
 /* CSS for Toggling dark mode and light mode
 
 .loading-page {
