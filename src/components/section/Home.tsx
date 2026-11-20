@@ -1,63 +1,51 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import heroPic from "../../assets/heroPic.png";
 import SplitComponent from "../SplitComponent";
+import { GradientCta } from "../ui/GradientCta";
+import { PhotoFrame } from "../ui/PhotoFrame";
 
 export const Home = ({ isLoaded }: { isLoaded: boolean }) => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center"
+      className="relative z-10 flex min-h-screen items-center justify-center px-4 pt-28 pb-16"
     >
       <RevealOnScroll>
-        <div className="text-center z-10 px-4">
-          <div className="mb-8 flex justify-center">
-            <img
-              src={heroPic}
-              alt="Justin Alcendor"
-              className="w-48 h-48 rounded-full object-cover border-4 border-indigo-500/30"
-            />
-          </div>
-          {/* <SplitComponent selector="#heading"> */}
-          <SplitComponent
-            tag="h1"
-            text="Hi, I'm Justin Alcendor"
-            className="text-5xl md:text-6xl font-mono font-bold mb-6 text-center"
-            gradient={{ from: "#3b82f6", to: "#c084fc" }}
-            delay={100}
-            duration={1.25}
-            ease="power3.out"
-            splitType="chars"
-            from={{ opacity: 0, y: 40 }}
-            to={{ opacity: 1, y: 0 }}
-            threshold={0.1}
-            rootMargin="-100px"
-            textAlign="center"
-            active={isLoaded}
+        <div className="mx-auto grid w-full max-w-6xl items-center gap-12 md:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)]">
+          <PhotoFrame
+            id="hero"
+            className="mx-auto w-full max-w-md md:mx-0"
           />
 
-          <p className="text-lg mb-8 max-w-lg mx-auto font-mono">
-            Full Stack Engineer leveraging deep Business Intelligence expertise
-            and modern software engineering to build high-impact, end-to-end
-            solutions.
-          </p>
-          <div className="flex justify-center space-x-4">
-            <a
-              href="#projects"
-              className="inline-flex font-mono items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
-            >
-              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
-                View Projects
-              </span>
-            </a>
+          <div className="text-left">
+            <p className="mb-4 font-mono text-xs uppercase tracking-[0.28em] text-indigo-400">
+              Full Stack Engineer
+            </p>
+            <SplitComponent
+              tag="h1"
+              text="Hi, I'm Justin Alcendor"
+              className="mb-6 text-5xl font-bold md:text-6xl"
+              gradient={{ from: "#3b82f6", to: "#c084fc" }}
+              delay={100}
+              duration={1.25}
+              ease="power3.out"
+              splitType="chars"
+              from={{ opacity: 0, y: 40 }}
+              to={{ opacity: 1, y: 0 }}
+              threshold={0.1}
+              rootMargin="-100px"
+              textAlign="left"
+              active={isLoaded}
+            />
 
-            <a
-              href="#contact"
-              className="inline-flex font-mono items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
-            >
-              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
-                Contact Me
-              </span>
-            </a>
+            <p className="mb-8 max-w-xl font-mono text-lg text-foreground/90">
+              Full Stack Engineer leveraging deep Business Intelligence expertise
+              and modern software engineering to build high-impact, end-to-end
+              solutions.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <GradientCta href="#projects">View Projects</GradientCta>
+              <GradientCta href="#contact">Contact Me</GradientCta>
+            </div>
           </div>
         </div>
       </RevealOnScroll>

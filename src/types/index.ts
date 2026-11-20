@@ -1,3 +1,5 @@
+import type { PhotoId } from "@/content/photos";
+
 export const FRONTEND_SKILLS = [
   "React",
   "Vite",
@@ -60,6 +62,7 @@ export interface Project {
   techStack: readonly string[];
   repoLink: string;
   demoLink?: string;
+  photoId: PhotoId;
 }
 
 export const PROJECTS: readonly Project[] = [
@@ -75,6 +78,7 @@ export const PROJECTS: readonly Project[] = [
     ],
     repoLink: "https://github.com/allaboutmike/learning-center-manager",
     demoLink: "https://capable-blini-676354.netlify.app/",
+    photoId: "project-learning-center",
   },
   {
     title: "Sentinel API Dashboard",
@@ -88,7 +92,7 @@ export const PROJECTS: readonly Project[] = [
       "Docker",
     ],
     repoLink: "https://github.com/Kareem42/Sentinel",
-    // demoLink: "https://capable-blini-676354.netlify.app/",
+    photoId: "project-sentinel",
   },
   {
     title: "Banking App",
@@ -96,7 +100,7 @@ export const PROJECTS: readonly Project[] = [
       "Created a secured banking application that would allow customers to view their balance in real-time, deposit and withdraw funds and solving customer problems related to slow transaction processing and lack of transparent financial reporting in the terminal.",
     techStack: ["Java", "MySQL", "Postman"],
     repoLink: "https://github.com/Kareem42/BankingApp",
-    // demoLink: "https://capable-blini-676354.netlify.app/",
+    photoId: "project-banking",
   },
   {
     title: "Wired! Audio & Media, LLC",
@@ -110,7 +114,7 @@ export const PROJECTS: readonly Project[] = [
       // "Docker",
     ],
     repoLink: "https://github.com/NedTurner613/WiredAV_LLC_FrontEnd",
-    // demoLink: "https://capable-blini-676354.netlify.app/",
+    photoId: "project-wired",
   },
 ] as const;
 

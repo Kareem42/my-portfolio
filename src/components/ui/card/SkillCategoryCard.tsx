@@ -8,7 +8,7 @@ export const SkillCategoryCard = ({
   skills,
 }: SkillCategoryCardProps) => {
   return (
-    <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+    <div className="rounded-2xl border border-border/70 bg-card/50 p-7 backdrop-blur-sm transition-all hover:-translate-y-1">
       <h3 className="text-xl font-bold mb-4 font-mono">{title}</h3>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill) => (
