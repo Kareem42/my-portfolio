@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { LoadingScreen } from "./components/LoadingScreen";
 import "./index.css";
 import { Navbar } from "./components/Navbar";
 import { MobileMenu } from "./components/MobileMenu";
@@ -13,12 +12,12 @@ import { Footer } from "./components/section/Footer";
 
 
 function App() {
-  const [isLoaded, setIsLoaded] = useState(false);
+  const isLoaded = true;
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
-      {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}{" "}
+      {/* Loading screen temporarily disabled. */}
       <div
         className={`relative min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
@@ -26,7 +25,7 @@ function App() {
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Home isLoaded={isLoaded} />
+        <Home />
         <About />
         <Projects />
         {/* <Achievements /> */}

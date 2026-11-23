@@ -8,18 +8,23 @@ export const SkillCategoryCard = ({
   skills,
 }: SkillCategoryCardProps) => {
   return (
-    <div className="rounded-2xl border border-border/70 bg-card/50 p-7 backdrop-blur-sm transition-all hover:-translate-y-1">
-      <h3 className="text-xl font-bold mb-4 font-mono">{title}</h3>
-      <div className="flex flex-wrap gap-2">
+    <article className="border border-white/15 bg-background p-5 transition-colors hover:border-indigo-400/40 md:p-6">
+      <div className="mb-5 flex items-center gap-3">
+        <span className="h-1.5 w-1.5 bg-indigo-400" aria-hidden="true" />
+        <h4 className="font-mono text-xs uppercase tracking-[0.18em] text-foreground/75">
+          {title}
+        </h4>
+      </div>
+      <ul className="flex flex-wrap gap-2">
         {skills.map((skill) => (
-          <span
+          <li
             key={skill}
-            className="font-mono bg-blue-500/10 text-indigo-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+            className="border border-white/10 px-2.5 py-1.5 font-mono text-xs text-foreground/60 transition-colors hover:border-indigo-400/40 hover:text-indigo-200"
           >
             {skill}
-          </span>
+          </li>
         ))}
-      </div>
-    </div>
+      </ul>
+    </article>
   );
 };

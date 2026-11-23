@@ -1,10 +1,4 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import { FaBriefcase } from "react-icons/fa";
 import type { PhotoId } from "@/content/photos";
 import { PhotoFrame } from "../ui/PhotoFrame";
 
@@ -12,90 +6,114 @@ interface Role {
   date: string;
   title: string;
   city: string;
-  body: string;
-  position: "left" | "right";
+  body: readonly string[];
   photoId?: PhotoId;
 }
 
 const ROLES: readonly Role[] = [
   {
-    date: "2023-2025",
+    date: "2023 — 2025",
     title: "Business Intelligence Manager",
     city: "Farmers Branch, TX",
-    position: "left",
-    body: "Oversaw two Spirits divisions with a primary focus on leveraging data analytics to drive sales and generate actionable reports. Played a key role in supporting informed decision-making, ensuring data integrity, and crafting effective business intelligence strategies and solutions.",
+    body: [
+      " Architected an automated ETL pipeline using Business Objects scheduling and Power Automate to extract, transform, and load daily sales data into SharePoint; leveraged SQL and optimized relational models to enable real-time dashboard refreshes for 125+ stakeholders across Premier and Genesis divisions.",
+      " Built a budget-tracking system from scratch to manage third-party vendor requisitions across advertising, POS, and marketing events; served as sole subject-matter expert and authored user documentation and training materials for both divisions.",
+      " Designed and maintained pricing strategy dashboards that surfaced revenue metrics across Texas demographic regions, informing pricing and merchandising decisions that sustained a 10% product sales increase.",
+    ],
   },
   {
-    date: "2022-2023",
+    date: "2022 — 2023",
     title: "Business Intelligence Analyst",
     city: "Farmers Branch, TX",
-    position: "right",
-    body: "Collect, evaluate, and interpret data to deliver actionable insights that drive strategic business decisions. Utilize data visualization tools and reporting platforms to design and develop dashboards and comprehensive reports for enhanced decision-making and clarity.",
+    body: [
+      " Reduced report delivery time by 30% by identifying pipeline bottlenecks and automating daily refresh cycles, eliminating manual extraction for a 15+ person cross-functional team.",
+      " Partnered with Finance to analyze margin drivers and surface portfolio inefficiencies, delivering data-backed recommendations that improved margins by 2%.",
+      " Collaborated with cross-functional teams to define project requirements, document acceptance criteria, and deliver tailored, data-driven software solutions for business stakeholders.",
+    ],
   },
   {
-    date: "2020-2022",
+    date: "2020 — 2022",
     title: "Night Warehouse Supervisor",
     city: "Farmers Branch, TX",
-    position: "left",
-    photoId: "place-dallas",
-    body: "Supervise night operations in the warehouse, ensuring the efficient and accurate handling, storage, and distribution of liquor products. Oversee a team of warehouse staff, coordinate workflows, enforce safety protocols, and maintain inventory accuracy. Play a key role in optimizing productivity and ensuring on-time deliveries while upholding company standards and policies.",
+    // photoId: "place-dallas",
+    body: [
+      "Led night warehouse operations and staff, coordinating workflows, safety, inventory accuracy, and on-time deliveries while improving productivity.",
+    ],
   },
   {
-    date: "2017-2020",
+    date: "2017 — 2020",
     title: "Day Warehouse Supervisor",
     city: "Lafayette, LA",
-    position: "right",
-    photoId: "place-lafayette",
-    body: "Manage daily warehouse operations, ensuring the efficient receipt of inbound deliveries, storage, and distribution of liquor products. Lead and coordinate a team of warehouse staff, oversee inventory management, enforce safety protocols, and maintain compliance with company standards. Focus on optimizing workflows and driving productivity to support timely deliveries and customer satisfaction.",
+    // photoId: "place-lafayette",
+    body: [
+      "Managed daily warehouse operations, inbound deliveries, inventory, and team workflows, with a focus on safety, productivity, and customer satisfaction.",
+    ],
   },
 ];
 
 export const History = () => {
   return (
-    <section
-      id="history"
-      className="relative z-10 flex min-h-screen items-center justify-center py-20"
-    >
+    <section id="history" className="relative z-10 py-24 md:py-32">
       <RevealOnScroll>
-        <div className="mx-auto max-w-3xl px-4">
-          <h2 className="mb-8 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-center font-mono text-3xl font-bold text-transparent">
-            Work History
-          </h2>
-        </div>
-
-        <VerticalTimeline>
-          {ROLES.map((role) => (
-            <VerticalTimelineElement
-              key={role.title}
-              className="vertical-timeline-element--work relative z-0 h-auto w-full rounded-lg font-mono transition-all duration-300 hover:scale-[1.02]"
-              contentStyle={{
-                background: "var(--card)",
-                color: "var(--card-foreground)",
-              }}
-              contentArrowStyle={{ borderRight: "7px solid rgb(97,71,185)" }}
-              date={role.date}
-              iconStyle={{ background: "rgb(98, 71, 186)" }}
-              icon={<FaBriefcase />}
-              position={role.position}
-            >
-              {role.photoId && (
-                <div className="mb-4">
-                  <PhotoFrame id={role.photoId} />
-                </div>
-              )}
-              <p className="mb-2 font-mono text-xs uppercase tracking-[0.18em] text-indigo-400">
-                {role.city} · {role.date}
+        <div className="mx-auto max-w-5xl px-5 md:px-8">
+          <div className="mb-12 border-b border-white/15 pb-7">
+            <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.24em] text-indigo-300">
+              <span className="h-px w-8 bg-indigo-400" /> 04 / Experience
+            </p>
+            <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+              <h2 className="text-4xl font-semibold tracking-[-0.05em] md:text-6xl">
+                Work history.
+              </h2>
+              <p className="max-w-sm text-sm leading-6 text-foreground/60">
+                From warehouse operations to business intelligence, and now
+                building software with the same focus on real-world outcomes.
               </p>
-              <h3 className="vertical-timeline-element-title font-mono font-bold">
-                {role.title}
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle font-mono">
-                {role.city}
-              </h4>
-              <p className="font-mono">{role.body}</p>
-            </VerticalTimelineElement>
-          ))}
-        </VerticalTimeline>
+            </div>
+          </div>
+
+          <ol className="relative ml-2 border-l border-indigo-400/40">
+            {ROLES.map((role, index) => (
+              <li
+                key={role.title}
+                className="relative pb-10 pl-7 last:pb-0 md:pl-10"
+              >
+                <span
+                  aria-hidden="true"
+                  className="absolute -left-[5px] top-1.5 h-2.5 w-2.5 bg-indigo-400 ring-4 ring-background"
+                />
+                <article className="grid gap-5 md:grid-cols-[10rem_1fr] md:gap-8">
+                  <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-indigo-300">
+                    <p>{role.date}</p>
+                    <p className="mt-2 text-foreground/45">
+                      0{index + 1} / Career
+                    </p>
+                  </div>
+                  <div className="border-t border-white/15 pt-4 md:pt-0 md:border-0">
+                    <div className="flex flex-col justify-between gap-2 md:flex-row md:items-baseline">
+                      <h3 className="text-xl font-semibold tracking-tight md:text-2xl">
+                        {role.title}
+                      </h3>
+                      <p className="font-mono text-xs text-foreground/45">
+                        {role.city}
+                      </p>
+                    </div>
+                    <ul className="mt-3 max-w-3xl list-disc space-y-2 pl-5 text-sm leading-6 text-foreground/65 marker:text-indigo-300">
+                      {role.body.map((bullet) => (
+                        <li key={bullet}>{bullet}</li>
+                      ))}
+                    </ul>
+                    {role.photoId && (
+                      <PhotoFrame
+                        id={role.photoId}
+                        className="mt-5 max-w-md rounded-none border-white/15 shadow-none"
+                      />
+                    )}
+                  </div>
+                </article>
+              </li>
+            ))}
+          </ol>
+        </div>
       </RevealOnScroll>
     </section>
   );

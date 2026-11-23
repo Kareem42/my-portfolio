@@ -1,3 +1,5 @@
+import heroPortrait from "@/assets/heroPic.png";
+
 export type PhotoAspect = "4 / 5" | "3 / 2" | "1 / 1" | "16 / 9" | "2 / 1";
 
 export interface PhotoSlot {
@@ -13,8 +15,9 @@ export const PHOTOS = {
   hero: {
     id: "hero",
     label: "Portrait, chest-up, dark background",
-    alt: "Portrait of Justin Alcendor",
+    alt: "Illustration of Justin Alcendor at his workstation",
     aspect: "4 / 5",
+    src: heroPortrait,
   },
   working: {
     id: "working",
