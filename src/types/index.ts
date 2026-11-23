@@ -1,9 +1,9 @@
 import type { PhotoId } from "@/content/photos";
 
 export const FRONTEND_SKILLS = [
-  "React",
+  "React 19",
   "Vite",
-  "Next.js",
+  "Next.js 21",
   "TypeScript",
   "TailwindCSS",
   "JavaScript",
@@ -13,36 +13,36 @@ export const FRONTEND_SKILLS = [
 
 export const BACKEND_SKILLS = [
   "Java Core",
-  "Spring Boot",
+  "Spring Boot 6",
   "Spring Security",
   "Spring MVC",
   "Lombok",
+  "Flyway",
+  "OpenAPI 3.0",
   "Mockito",
   "RESTful APIs",
   "Hibernate",
 ] as const;
 
 export const DATA_ENGINEERING_SKILLS = [
-  "Python",
-  "MySQL",
+  "SQL",
   "PostgreSQL",
   "Data Modeling",
   "Power Query",
   "Power Pivot",
   "Business Objects Enterprise",
-  "Microsoft 365",
   "Power Automate",
   "DAX",
   "Power BI",
-  "Excel",
+  "Advanced Excel",
   "Tableau",
 ] as const;
 
 export const DEVOPS_SKILLS = [
-  "Git",
+  "AI Orchestration",
   "CI/CD",
-  "Docker",
-  "Version Control",
+  "Docker Containerization",
+  "Version Control (Git)",
 ] as const;
 
 export type FrontendSkill = (typeof FRONTEND_SKILLS)[number];
@@ -58,6 +58,7 @@ export type TechSkill =
 
 export interface Project {
   title: string;
+  focus: string;
   description: string;
   techStack: readonly string[];
   repoLink: string;
@@ -67,45 +68,42 @@ export interface Project {
 
 export const PROJECTS: readonly Project[] = [
   {
-    title: "Dallas Learning Center",
+    title: "Agentic Property Billing",
+    focus: "Finance · Property Management",
     description:
-      "A full-stack web application built during a 6-week software engineering cohort. It is designed to improve how tutoring centers manage sessions, track student progress, and retain customers.",
+      "A financial automation platform designed for property management portfolios to intake, parse, match, validate, approve, and execute payments for vendor invoices across multiple properties.",
+    techStack: [
+      "Java Spring Boot",
+      "OpenAI",
+      "React + TypeScript",
+      "OpenAPI",
+      "Docker",
+    ],
+    repoLink:
+      "https://github.com/Kareem42/cohort-team-2026-the-declared-royalty",
+    photoId: "project-banking",
+  },
+  {
+    title: "Dallas Learning Center",
+    focus: "Education · Session management",
+    description:
+      "A team-built full-stack app from a six-week software engineering cohort. It gives tutoring centers one place to manage sessions, follow student progress, and support customer retention.",
     techStack: [
       "React + Vite + TypeScript",
       "Java + Spring Boot",
       "PostgreSQL",
       "Spring Security",
+      "Docker",
     ],
     repoLink: "https://github.com/allaboutmike/learning-center-manager",
     demoLink: "https://capable-blini-676354.netlify.app/",
     photoId: "project-learning-center",
   },
   {
-    title: "Sentinel API Dashboard",
-    description:
-      "A lightweight, self-hosted service uptime monitoring application. Register your external microservices or websites by URL, and Sentinel will automatically track their availability, pinging them on a background thread and reporting their real-time status.",
-    techStack: [
-      "React + Vite + TypeScript",
-      "Spring Boot",
-      "Spring Security",
-      "PostgreSQL",
-      "Docker",
-    ],
-    repoLink: "https://github.com/Kareem42/Sentinel",
-    photoId: "project-sentinel",
-  },
-  {
-    title: "Banking App",
-    description:
-      "Created a secured banking application that would allow customers to view their balance in real-time, deposit and withdraw funds and solving customer problems related to slow transaction processing and lack of transparent financial reporting in the terminal.",
-    techStack: ["Java", "MySQL", "Postman"],
-    repoLink: "https://github.com/Kareem42/BankingApp",
-    photoId: "project-banking",
-  },
-  {
     title: "Wired! Audio & Media, LLC",
+    focus: "Small business · Website and CRM",
     description:
-      "A complete revamp of a local company website with an added CRM system for easier tracking with appointments and improvement for website traffic.",
+      "A website and CRM revamp for a local audio and media company, bringing its public presence and appointment tracking into one connected project.",
     techStack: [
       "Next.js + TypeScript",
       "Java Spring Boot",
@@ -115,6 +113,21 @@ export const PROJECTS: readonly Project[] = [
     ],
     repoLink: "https://github.com/NedTurner613/WiredAV_LLC_FrontEnd",
     photoId: "project-wired",
+  },
+  {
+    title: "Sentinel API Dashboard",
+    focus: "Reliability · Service monitoring",
+    description:
+      "A self-hosted dashboard for monitoring websites and microservices. It runs scheduled health checks, reports service status and response time, and keeps check history scoped to each user.",
+    techStack: [
+      "React + Vite + TypeScript",
+      "Spring Boot",
+      "Spring Security",
+      "PostgreSQL",
+      "Docker",
+    ],
+    repoLink: "https://github.com/Kareem42/Sentinel",
+    photoId: "project-sentinel",
   },
 ] as const;
 
