@@ -56,7 +56,7 @@ export const History = () => {
     <section id="history" className="relative z-10 py-24 md:py-32">
       <RevealOnScroll>
         <div className="mx-auto max-w-5xl px-5 md:px-8">
-          <div className="mb-12 border-b border-white/15 pb-7">
+          <div className="mb-12 border-b border-border pb-7">
             <p className="mb-5 flex items-center gap-3 font-mono text-xs uppercase tracking-[0.24em] text-indigo-300">
               <span className="h-px w-8 bg-indigo-400" /> 04 / Experience
             </p>
@@ -88,7 +88,7 @@ export const History = () => {
                       0{index + 1} / Career
                     </p>
                   </div>
-                  <div className="border-t border-white/15 pt-4 md:pt-0 md:border-0">
+                  <div className="border-t border-border pt-4 md:pt-0 md:border-0">
                     <div className="flex flex-col justify-between gap-2 md:flex-row md:items-baseline">
                       <h3 className="text-xl font-semibold tracking-tight md:text-2xl">
                         {role.title}
@@ -105,7 +105,7 @@ export const History = () => {
                     {role.photoId && (
                       <PhotoFrame
                         id={role.photoId}
-                        className="mt-5 max-w-md rounded-none border-white/15 shadow-none"
+                        className="mt-5 max-w-md rounded-none border-border shadow-none"
                       />
                     )}
                   </div>

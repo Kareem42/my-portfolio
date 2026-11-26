@@ -34,7 +34,7 @@ export const Contact = () => {
   };
 
   const inputClassName =
-    "w-full rounded-none border border-white/15 bg-white/[0.03] px-4 py-3 font-mono text-sm text-foreground placeholder:text-foreground/35 transition focus:border-indigo-400/70 focus:bg-indigo-400/[0.04] focus:outline-none";
+    "w-full rounded-none border border-border bg-background px-4 py-3 font-mono text-sm text-foreground placeholder:text-foreground/35 transition focus:border-indigo-400/70 focus:bg-indigo-400/[0.04] focus:outline-none";
 
   return (
     <section id="contact" className="relative z-10 py-24 md:py-32">
@@ -56,7 +56,7 @@ export const Contact = () => {
             </p>
           </div>
 
-          <div className="border-t border-white/15 pt-6 md:border-l md:border-t-0 md:pl-10 md:pt-0">
+          <div className="border-t border-border pt-6 md:border-l md:border-t-0 md:pl-10 md:pt-0">
             <form className="space-y-5" onSubmit={handleSubmit}>
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>
