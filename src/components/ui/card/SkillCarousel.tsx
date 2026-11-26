@@ -23,8 +23,8 @@ export const SkillCarousel = ({ categories }: SkillCarouselProps) => {
   const activeCategory = categories[activeIndex];
 
   return (
-    <div className="grid border-y border-white/15 md:grid-cols-[0.8fr_1.2fr]">
-      <nav aria-label="Skills categories" className="border-b border-white/15 md:border-b-0 md:border-r">
+    <div className="grid border-y border-border md:grid-cols-[0.8fr_1.2fr]">
+      <nav aria-label="Skills categories" className="border-b border-border md:border-b-0 md:border-r">
         {categories.map((category, index) => {
           const isActive = index === activeIndex;
 
@@ -34,7 +34,7 @@ export const SkillCarousel = ({ categories }: SkillCarouselProps) => {
               type="button"
               onClick={() => setActiveIndex(index)}
               aria-current={isActive ? "step" : undefined}
-              className={`group flex w-full items-center gap-4 border-b border-white/10 px-4 py-4 text-left transition-colors last:border-b-0 md:px-6 ${isActive ? "bg-white/[0.04]" : "hover:bg-white/[0.025]"}`}
+              className={`group flex w-full items-center gap-4 border-b border-border px-4 py-4 text-left transition-colors last:border-b-0 md:px-6 ${isActive ? "bg-muted" : "hover:bg-muted/50"}`}
             >
               <span className={`font-mono text-xs ${isActive ? "text-indigo-300" : "text-foreground/35 group-hover:text-foreground/60"}`}>
                 {String(index + 1).padStart(2, "0")}
@@ -67,7 +67,7 @@ export const SkillCarousel = ({ categories }: SkillCarouselProps) => {
             {activeCategory.skills.map((skill, index) => (
               <li
                 key={skill}
-                className="border-b border-white/15 pb-1 font-mono text-xs text-foreground/65 transition-colors hover:border-indigo-300/70 hover:text-indigo-200"
+                className="border-b border-border pb-1 font-mono text-xs text-foreground/65 transition-colors hover:border-indigo-300/70 hover:text-indigo-200"
               >
                 <span className="mr-2 text-[9px] text-foreground/30">{String(index + 1).padStart(2, "0")}</span>
                 {skill}
@@ -76,7 +76,7 @@ export const SkillCarousel = ({ categories }: SkillCarouselProps) => {
           </ul>
         </div>
 
-        <div className="mt-8 flex items-center justify-between border-t border-white/10 pt-4">
+        <div className="mt-8 flex items-center justify-between border-t border-border pt-4">
           <button
             type="button"
             onClick={() => move(-1)}

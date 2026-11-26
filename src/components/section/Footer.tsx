@@ -9,7 +9,7 @@ const socialLinks = [
 
 export const Footer = () => {
   return (
-    <footer className="relative z-10 border-t border-white/15">
+    <footer className="relative z-10 border-t border-border">
       <div className="mx-auto flex max-w-6xl flex-col gap-7 px-5 py-8 md:flex-row md:items-center md:justify-between md:px-8">
         <div>
           <a href="#home" className="font-mono text-sm font-semibold text-foreground">

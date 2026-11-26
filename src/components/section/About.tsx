@@ -29,7 +29,7 @@ export const About = () => {
             </p>
           </div>
 
-          <div className="grid items-stretch gap-8 border-y border-white/15 py-8 md:grid-cols-[1.05fr_0.95fr] md:gap-12 md:py-10">
+          <div className="grid items-stretch gap-8 border-y border-border py-8 md:grid-cols-[1.05fr_0.95fr] md:gap-12 md:py-10">
             <div className="flex flex-col justify-center gap-5 text-sm leading-7 text-foreground/75 md:text-base">
               <p>
                 I am a full-stack engineer specializing in Java Spring Boot,
@@ -45,7 +45,7 @@ export const About = () => {
                 with a focus on data integrity, system reliability, and
                 measurable business impact.
               </p>
-              <div className="mt-2 grid grid-cols-2 gap-4 border-t border-white/10 pt-5 font-mono text-[10px] uppercase tracking-[0.17em] text-foreground/50 sm:grid-cols-3">
+              <div className="mt-2 grid grid-cols-2 gap-4 border-t border-border pt-5 font-mono text-[10px] uppercase tracking-[0.17em] text-foreground/50 sm:grid-cols-3">
                 <p>
                   <span className="mb-1 block text-lg tracking-normal text-foreground">
                     2015
@@ -68,7 +68,7 @@ export const About = () => {
             </div>
             <PhotoFrame
               id="working"
-              className="h-full min-h-64 rounded-none border-white/15 shadow-2xl shadow-indigo-950/30"
+              className="h-full min-h-64 rounded-none border-border shadow-2xl shadow-indigo-950/30"
             />
           </div>
 
@@ -77,9 +77,9 @@ export const About = () => {
               <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-indigo-300">
                 How I contribute
               </p>
-              <span className="h-px flex-1 bg-white/15" />
+              <span className="h-px flex-1 bg-border" />
             </div>
-            <div className="grid gap-px border border-white/15 bg-white/15 md:grid-cols-3">
+            <div className="grid gap-px border border-border bg-border md:grid-cols-3">
               <article className="bg-background p-6 md:p-7">
                 <p className="mb-4 font-mono text-[10px] uppercase tracking-[0.2em] text-foreground/40">
                   01 / Context
@@ -129,7 +129,7 @@ export const About = () => {
           </div>
 
           <div className="mt-16">
-            <div className="mb-7 flex items-end justify-between gap-6 border-b border-white/15 pb-4">
+            <div className="mb-7 flex items-end justify-between gap-6 border-b border-border pb-4">
               <div>
                 <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.2em] text-indigo-300">
                   Tools I work with

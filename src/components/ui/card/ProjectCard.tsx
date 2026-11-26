@@ -17,7 +17,7 @@ export const ProjectCard = ({
     <article className="flex min-w-0 flex-col bg-background p-5 sm:p-7 md:p-8">
       <PhotoFrame
         id={photoId}
-        className="rounded-none border-white/15 shadow-none"
+        className="rounded-none border-border shadow-none"
       />
       <div className="flex flex-1 flex-col pt-6">
         <div className="mb-3 flex items-center justify-between gap-4">

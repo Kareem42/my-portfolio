@@ -1,6 +1,17 @@
 import heroPortrait from "@/assets/heroPic.png";
+import buildBall from "@/assets/buildAndBall.jpeg";
+import dallasLearningCenter from "@/assets/dlc1.png";
+import sentinel from "@/assets/sentinel.png";
+import wiredAudio from "@/assets/wiredAudio.png";
+import propertyBilling from "@/assets/pb1.png";
 
-export type PhotoAspect = "4 / 5" | "3 / 2" | "1 / 1" | "16 / 9" | "2 / 1";
+export type PhotoAspect =
+  | "4 / 5"
+  | "3 / 2"
+  | "1 / 1"
+  | "16 / 9"
+  | "2 / 1"
+  | "2.18 / 1";
 
 export interface PhotoSlot {
   id: string;
@@ -30,6 +41,7 @@ export const PHOTOS = {
     label: "On the court or with Build and Ball",
     alt: "Justin Alcendor on the basketball court",
     aspect: "3 / 2",
+    src: buildBall,
   },
   chester: {
     id: "chester",
@@ -42,24 +54,28 @@ export const PHOTOS = {
     label: "Dallas Learning Center screenshot",
     alt: "Dallas Learning Center product still",
     aspect: "16 / 9",
+    src: dallasLearningCenter,
   },
   "project-sentinel": {
     id: "project-sentinel",
     label: "Sentinel dashboard screenshot",
     alt: "Sentinel API Dashboard product still",
     aspect: "16 / 9",
+    src: sentinel,
   },
   "project-banking": {
     id: "project-banking",
     label: "Banking App screenshot",
     alt: "Banking App product still",
     aspect: "16 / 9",
+    src: propertyBilling,
   },
   "project-wired": {
     id: "project-wired",
     label: "Wired! Audio and Media screenshot",
     alt: "Wired Audio and Media product still",
     aspect: "16 / 9",
+    src: wiredAudio,
   },
   "place-lafayette": {
     id: "place-lafayette",
